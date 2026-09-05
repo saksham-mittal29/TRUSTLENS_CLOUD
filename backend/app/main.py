@@ -1,9 +1,15 @@
 from fastapi import FastAPI
+
 from app.api.verification import router as verification_router
+
 
 app = FastAPI(title="TrustLens API")
 
-app.include_router(verification_router, prefix="/api")
+
+app.include_router(
+    verification_router,
+    prefix="/api"
+)
 
 
 @app.get("/")
@@ -18,4 +24,3 @@ def health():
     return {
         "status": "healthy"
     }
-
