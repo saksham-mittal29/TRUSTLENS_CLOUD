@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 
 from app.schemas.verification import VerificationRequest
 from app.services.claim_extractor import extract_claims
@@ -14,7 +14,28 @@ router = APIRouter()
 def verify_response(request: VerificationRequest):
 
     # Step 1: Extract claims
-    claims = extract_claims(request.response)
+    try:
+        claims = extract_claims(request.response)
+
+    except Exception as exc:
+        error_message = str(exc)
+
+        if "429" in error_message or "RESOURCE_EXHAUSTED" in error_message:
+            raise HTTPException(
+                status_code=429,
+                detail="Gemini API quota exceeded. Please try again later."
+            )
+
+        if "503" in error_message or "UNAVAILABLE" in error_message:
+            raise HTTPException(
+                status_code=503,
+                detail="Gemini AI service is temporarily unavailable. Please try again later."
+            )
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"Claim extraction failed: {error_message}"
+        )
 
     verification_results = []
 
@@ -24,10 +45,22 @@ def verify_response(request: VerificationRequest):
         claim = item["claim"]
 
         # Search for evidence
-        evidence = search_evidence(claim)
+        try:
+            evidence = search_evidence(claim)
+        except Exception as exc:
+            evidence = []
 
         # Verify claim against evidence
-        verification = verify_claim(claim, evidence)
+        try:
+            verification = verify_claim(claim, evidence)
+        except Exception as exc:
+            verification = {
+                "verdict": "UNCERTAIN",
+                "confidence": 0,
+                "reason": f"Verification temporarily failed: {str(exc)}",
+                "evidence_quality": 0,
+                "relevant_sources": []
+            }
 
         # Build complete claim result
         verification_results.append({

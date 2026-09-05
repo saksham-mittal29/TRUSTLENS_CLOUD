@@ -1,3 +1,16 @@
+def _safe_score(value) -> float:
+    """
+    Convert a score to a safe number between 0 and 100.
+    """
+
+    try:
+        value = float(value)
+    except (ValueError, TypeError):
+        value = 0
+
+    return max(0, min(100, value))
+
+
 def calculate_claim_score(verification: dict) -> float:
     """
     Calculate a trust score for a single verified claim.
@@ -8,13 +21,16 @@ def calculate_claim_score(verification: dict) -> float:
     - evidence quality
     """
 
-    verdict = verification.get("verdict", "UNCERTAIN")
-    confidence = verification.get("confidence", 0)
-    evidence_quality = verification.get("evidence_quality", 0)
+    if not isinstance(verification, dict):
+        verification = {}
 
-    # Keep values within valid range
-    confidence = max(0, min(100, confidence))
-    evidence_quality = max(0, min(100, evidence_quality))
+    verdict = verification.get("verdict", "UNCERTAIN")
+    confidence = _safe_score(
+        verification.get("confidence", 0)
+    )
+    evidence_quality = _safe_score(
+        verification.get("evidence_quality", 0)
+    )
 
     if verdict == "SUPPORTED":
         # Strong evidence + high confidence = high trust
@@ -30,7 +46,7 @@ def calculate_claim_score(verification: dict) -> float:
             + (100 - evidence_quality) * 0.3
         )
 
-    else:  # UNCERTAIN
+    else:  # UNCERTAIN or unknown verdict
         # Uncertain claims stay around the middle
         score = 50
 

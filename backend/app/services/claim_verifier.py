@@ -5,9 +5,82 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
+def validate_verification(verification: dict, evidence: list):
+    """
+    Validate and normalize Gemini verification output.
+    """
 
+    if not isinstance(verification, dict):
+        verification = {}
+
+    verdict = verification.get("verdict", "UNCERTAIN")
+    confidence = verification.get("confidence", 0)
+    reason = verification.get("reason", "")
+    evidence_quality = verification.get("evidence_quality", 0)
+    relevant_sources = verification.get("relevant_sources", [])
+
+    allowed_verdicts = {
+        "SUPPORTED",
+        "CONTRADICTED",
+        "UNCERTAIN"
+    }
+
+    if verdict not in allowed_verdicts:
+        verdict = "UNCERTAIN"
+
+    try:
+        confidence = int(confidence)
+    except (ValueError, TypeError):
+        confidence = 0
+
+    confidence = max(0, min(100, confidence))
+
+    try:
+        evidence_quality = int(evidence_quality)
+    except (ValueError, TypeError):
+        evidence_quality = 0
+
+    evidence_quality = max(0, min(100, evidence_quality))
+
+    if not isinstance(reason, str):
+        reason = str(reason)
+
+    if not isinstance(relevant_sources, list):
+        relevant_sources = []
+
+    validated_sources = []
+
+    for source in relevant_sources:
+        try:
+            source_number = int(source)
+
+            if 1 <= source_number <= len(evidence):
+                validated_sources.append(source_number)
+
+        except (ValueError, TypeError):
+            continue
+
+    relevant_sources = list(dict.fromkeys(validated_sources))
+
+    return {
+        "verdict": verdict,
+        "confidence": confidence,
+        "reason": reason,
+        "evidence_quality": evidence_quality,
+        "relevant_sources": relevant_sources
+    }
 
 def verify_claim(claim: str, evidence: list):
+
+    if not evidence:
+        return {
+            "verdict": "UNCERTAIN",
+            "confidence": 0,
+            "reason": "No evidence was found to evaluate this claim.",
+            "evidence_quality": 0,
+            "relevant_sources": []
+        }
+
     api_key = os.getenv("GEMINI_API_KEY")
 
     if not api_key:
@@ -131,31 +204,4 @@ CLAIM:
             f"Gemini returned invalid verification JSON: {text}"
         )
 
-    verdict = verification.get("verdict", "UNCERTAIN")
-    confidence = verification.get("confidence", 0)
-    reason = verification.get("reason", "")
-
-    # Safety validation
-    allowed_verdicts = {
-        "SUPPORTED",
-        "CONTRADICTED",
-        "UNCERTAIN"
-    }
-
-    if verdict not in allowed_verdicts:
-        verdict = "UNCERTAIN"
-
-    try:
-        confidence = int(confidence)
-    except (ValueError, TypeError):
-        confidence = 0
-
-    confidence = max(0, min(100, confidence))
-
-    return {
-        "verdict": verdict,
-        "confidence": confidence,
-        "reason": reason,
-        "evidence_quality": verification.get("evidence_quality", 0),
-        "relevant_sources": verification.get("relevant_sources", [])
-    }
+    return validate_verification(verification, evidence)
