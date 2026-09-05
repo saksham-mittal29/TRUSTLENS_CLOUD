@@ -2,7 +2,7 @@ from app.services.evidence_search import search_evidence
 from app.services.claim_verifier import verify_claim
 
 
-claim = "The Eiffel Tower is 500 meters tall."
+claim = "The Eiffel Tower is the most beautiful structure ever built."
 
 
 print("\nSearching for evidence...\n")

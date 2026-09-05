@@ -6,6 +6,7 @@ from app.services.evidence_search import search_evidence
 from app.services.claim_verifier import verify_claim
 from app.services.trust_score import calculate_trust_score
 
+
 router = APIRouter()
 
 
@@ -28,43 +29,41 @@ def verify_response(request: VerificationRequest):
         # Verify claim against evidence
         verification = verify_claim(claim, evidence)
 
-        # Parse Gemini response
-        verdict = "UNCERTAIN"
-        confidence = 0
-        reason = verification
-
-        for line in verification.splitlines():
-
-            line = line.strip()
-
-            if line.startswith("Verdict:"):
-                verdict = line.replace("Verdict:", "").strip()
-
-            elif line.startswith("Confidence:"):
-                try:
-                    confidence = int(
-                        line.replace("Confidence:", "").strip()
-                    )
-                except ValueError:
-                    confidence = 0
-
-            elif line.startswith("Reason:"):
-                reason = line.replace("Reason:", "").strip()
-
+        # Build complete claim result
         verification_results.append({
             "claim": claim,
-            "verdict": verdict,
-            "confidence": confidence,
-            "reason": reason,
+            "verdict": verification.get("verdict", "UNCERTAIN"),
+            "confidence": verification.get("confidence", 0),
+            "reason": verification.get("reason", ""),
+            "evidence_quality": verification.get("evidence_quality", 0),
+            "relevant_sources": verification.get("relevant_sources", []),
             "evidence": evidence
         })
 
     # Step 3: Calculate overall Trust Score
     trust_score = calculate_trust_score(verification_results)
 
+    supported_claims = sum(
+        1 for result in verification_results
+        if result["verdict"] == "SUPPORTED"
+    )
+
+    contradicted_claims = sum(
+        1 for result in verification_results
+        if result["verdict"] == "CONTRADICTED"
+    )
+
+    uncertain_claims = sum(
+        1 for result in verification_results
+        if result["verdict"] == "UNCERTAIN"
+    )
+
     # Step 4: Return complete result
     return {
         "trust_score": trust_score,
         "total_claims": len(verification_results),
+        "supported_claims": supported_claims,
+        "contradicted_claims": contradicted_claims,
+        "uncertain_claims": uncertain_claims,
         "claims": verification_results
     }
