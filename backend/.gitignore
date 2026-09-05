@@ -7,3 +7,6 @@ venv/
 .venv/
 .pytest_cache/
 .DS_Store
+trustlens_firebase_admin_sdk.json
+trustlens_firebase_ admin_sdk.json
+*firebase*.json
