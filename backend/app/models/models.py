@@ -138,3 +138,29 @@ class Claim(Base):
     verification: Mapped["Verification"] = relationship(
         back_populates="claims"
     )
+
+    evidence: Mapped[list["Evidence"]] = relationship(
+        back_populates="claim",
+        cascade="all, delete-orphan"
+    )
+
+
+class Evidence(Base):
+    __tablename__ = "evidence"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    claim_id: Mapped[int] = mapped_column(
+        ForeignKey("claims.id"),
+        nullable=False
+    )
+    title: Mapped[str] = mapped_column(Text, nullable=False)
+    url: Mapped[str] = mapped_column(Text, nullable=False)
+    snippet: Mapped[str] = mapped_column(Text, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow
+    )
+
+    claim: Mapped["Claim"] = relationship(
+        back_populates="evidence"
+    )

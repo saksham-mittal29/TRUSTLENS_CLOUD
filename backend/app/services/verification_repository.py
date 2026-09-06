@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from app.models import Verification, Claim
+from app.models import Verification, Claim, Evidence
 
 
 def save_verification(
@@ -10,25 +10,18 @@ def save_verification(
     results: list,
     user_id: int | None = None
 ):
-    """
-    Save a verification and all of its claims to PostgreSQL.
-    """
-
     supported_claims = sum(
-        1
-        for result in results
+        1 for result in results
         if result.get("verdict") == "SUPPORTED"
     )
 
     contradicted_claims = sum(
-        1
-        for result in results
+        1 for result in results
         if result.get("verdict") == "CONTRADICTED"
     )
 
     uncertain_claims = sum(
-        1
-        for result in results
+        1 for result in results
         if result.get("verdict") == "UNCERTAIN"
     )
 
@@ -46,7 +39,6 @@ def save_verification(
     db.flush()
 
     for result in results:
-
         claim = Claim(
             verification_id=verification.id,
             claim_text=result.get("claim", ""),
@@ -57,9 +49,21 @@ def save_verification(
         )
 
         db.add(claim)
+        db.flush()
+
+        evidence_items = result.get("evidence", [])
+
+        for evidence_data in evidence_items:
+            evidence = Evidence(
+                claim_id=claim.id,
+                title=evidence_data.get("title", ""),
+                url=evidence_data.get("url", ""),
+                snippet=evidence_data.get("snippet", "")
+            )
+
+            db.add(evidence)
 
     db.commit()
-
     db.refresh(verification)
 
     return verification

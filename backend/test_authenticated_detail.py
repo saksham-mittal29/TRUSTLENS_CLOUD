@@ -54,7 +54,7 @@ print("Firebase token verified successfully.")
 
 # Get verification detail
 detail_request = urllib.request.Request(
-    "http://127.0.0.1:8000/api/verifications/5",
+    "http://127.0.0.1:8000/api/verifications/8",
     headers={
         "Authorization": f"Bearer {id_token}",
     },

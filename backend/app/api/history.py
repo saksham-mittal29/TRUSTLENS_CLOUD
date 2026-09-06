@@ -92,6 +92,16 @@ def get_verification_detail(
                 "reason": claim.reason,
                 "evidence_quality": claim.evidence_quality,
                 "created_at": claim.created_at,
+                "evidence": [
+                    {
+                        "id": evidence.id,
+                        "title": evidence.title,
+                        "url": evidence.url,
+                        "snippet": evidence.snippet,
+                        "created_at": evidence.created_at,
+                    }
+                    for evidence in claim.evidence
+                ],
             }
             for claim in verification.claims
         ]
