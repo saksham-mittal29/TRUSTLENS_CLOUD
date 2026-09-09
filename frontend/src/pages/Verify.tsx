@@ -1,54 +1,41 @@
 import { useState } from "react";
-import { SearchCheck, ShieldCheck, Sparkles } from "lucide-react";
+import { ShieldCheck, Sparkles } from "lucide-react";
+
 import VerificationResult from "../components/VerificationResult";
+import { verifyResponse } from "../services/api";
+import type { VerificationResponse } from "../types/verification";
 
 function Verify() {
   const [response, setResponse] = useState("");
+  const [result, setResult] = useState<VerificationResponse | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const mockClaims = [
-    {
-      claim: "The Eiffel Tower is located in Paris, France.",
-      verdict: "SUPPORTED" as const,
-      confidence: 98,
-      reason:
-        "Multiple reliable sources confirm that the Eiffel Tower is located in Paris, France.",
-      evidenceQuality: 96,
-    },
-    {
-      claim: "The Eiffel Tower was completed in 1889.",
-      verdict: "SUPPORTED" as const,
-      confidence: 97,
-      reason:
-        "Historical sources consistently identify 1889 as the year the Eiffel Tower was completed.",
-      evidenceQuality: 95,
-    },
-    {
-      claim: "The Eiffel Tower is 500 meters tall.",
-      verdict: "CONTRADICTED" as const,
-      confidence: 94,
-      reason:
-        "Reliable sources report a height significantly lower than 500 meters.",
-      evidenceQuality: 93,
-    },
-  ];
+  async function handleVerify() {
+    if (!response.trim()) {
+      return;
+    }
+
+    setLoading(true);
+    setError("");
+    setResult(null);
+
+    try {
+      const data = await verifyResponse(response);
+      setResult(data);
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Verification failed."
+      );
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <section className="space-y-8 p-8">
-      {/* Page Header */}
-      <div>
-        <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-500/20">
-            <SearchCheck className="h-5 w-5 text-indigo-400" />
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-semibold">Verify AI Response</h2>
-            <p className="text-sm text-slate-500">
-              Analyze an AI response for factual reliability and trustworthiness.
-            </p>
-          </div>
-        </div>
-      </div>
 
       {/* Verification Input */}
       <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
@@ -76,20 +63,34 @@ function Verify() {
           </p>
 
           <button
-            disabled={!response.trim()}
+            onClick={handleVerify}
+            disabled={!response.trim() || loading}
             className="flex items-center gap-2 rounded-xl bg-indigo-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-400 disabled:cursor-not-allowed disabled:opacity-40"
           >
             <ShieldCheck className="h-4 w-4" />
-            Verify Response
+
+            {loading ? "Verifying..." : "Verify Response"}
           </button>
         </div>
       </div>
 
+      {/* Error */}
+      {error && (
+        <div className="rounded-xl border border-red-500/20 bg-red-500/10 p-4 text-sm text-red-400">
+          {error}
+        </div>
+      )}
+
       {/* Verification Results */}
-      <VerificationResult
-        trustScore={82.4}
-        claims={mockClaims}
-      />
+      {result && (
+        <VerificationResult
+          trustScore={result.trust_score}
+          supportedClaims={result.supported_claims}
+          contradictedClaims={result.contradicted_claims}
+          uncertainClaims={result.uncertain_claims}
+          claims={result.claims}
+        />
+      )}
     </section>
   );
 }

@@ -34,6 +34,7 @@ def get_verification_history(
         "verifications": [
             {
                 "id": verification.id,
+                "original_response": verification.original_response,
                 "trust_score": verification.trust_score,
                 "total_claims": verification.total_claims,
                 "supported_claims": verification.supported_claims,

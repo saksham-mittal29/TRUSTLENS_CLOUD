@@ -1,31 +1,20 @@
-interface ClaimResult {
-  claim: string;
-  verdict: "SUPPORTED" | "CONTRADICTED" | "UNCERTAIN";
-  confidence: number;
-  reason: string;
-  evidenceQuality: number;
-}
+import type { ClaimResult } from "../types/verification";
 
 interface VerificationResultProps {
   trustScore: number;
+  supportedClaims: number;
+  contradictedClaims: number;
+  uncertainClaims: number;
   claims: ClaimResult[];
 }
 
 function VerificationResult({
   trustScore,
+  supportedClaims,
+  contradictedClaims,
+  uncertainClaims,
   claims,
 }: VerificationResultProps) {
-  const supported = claims.filter(
-    (claim) => claim.verdict === "SUPPORTED"
-  ).length;
-
-  const contradicted = claims.filter(
-    (claim) => claim.verdict === "CONTRADICTED"
-  ).length;
-
-  const uncertain = claims.filter(
-    (claim) => claim.verdict === "UNCERTAIN"
-  ).length;
 
   return (
     <div className="space-y-6">
@@ -51,21 +40,21 @@ function VerificationResult({
         <div className="rounded-xl border border-slate-800 bg-slate-900 p-5">
           <p className="text-sm text-slate-500">Supported</p>
           <p className="mt-2 text-3xl font-bold text-emerald-400">
-            {supported}
+            {supportedClaims}
           </p>
         </div>
 
         <div className="rounded-xl border border-slate-800 bg-slate-900 p-5">
           <p className="text-sm text-slate-500">Contradicted</p>
           <p className="mt-2 text-3xl font-bold text-red-400">
-            {contradicted}
+            {contradictedClaims}
           </p>
         </div>
 
         <div className="rounded-xl border border-slate-800 bg-slate-900 p-5">
           <p className="text-sm text-slate-500">Uncertain</p>
           <p className="mt-2 text-3xl font-bold text-amber-400">
-            {uncertain}
+            {uncertainClaims}
           </p>
         </div>
       </div>
@@ -117,10 +106,42 @@ function VerificationResult({
                     Evidence Quality
                   </p>
                   <p className="mt-1 text-sm text-slate-300">
-                    {claim.evidenceQuality}%
+                    {claim.evidence_quality}%
                   </p>
                 </div>
               </div>
+
+              {claim.evidence && claim.evidence.length > 0 && (
+                <div className="mt-6 border-t border-slate-800 pt-5">
+                  <p className="text-sm font-medium text-slate-300">
+                    Evidence
+                  </p>
+
+                  <div className="mt-3 space-y-3">
+                    {claim.evidence.map((evidence, evidenceIndex) => (
+                      <a
+                        key={evidence.id ?? evidenceIndex}
+                        href={evidence.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block rounded-xl border border-slate-800 bg-slate-950 p-4 transition hover:border-indigo-500/50"
+                      >
+                        <p className="font-medium text-indigo-400">
+                          {evidence.title}
+                        </p>
+
+                        <p className="mt-2 text-sm leading-6 text-slate-400">
+                          {evidence.snippet}
+                        </p>
+
+                        <p className="mt-3 truncate text-xs text-slate-600">
+                          {evidence.url}
+                        </p>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ))}
         </div>
