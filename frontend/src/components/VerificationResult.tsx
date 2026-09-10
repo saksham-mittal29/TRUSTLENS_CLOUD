@@ -1,3 +1,4 @@
+import { CheckCircle2, XCircle, AlertTriangle } from "lucide-react";
 import type { ClaimResult } from "../types/verification";
 
 interface VerificationResultProps {
@@ -69,29 +70,45 @@ function VerificationResult({
         </div>
 
         <div className="divide-y divide-slate-800">
-          {claims.map((claim, index) => (
-            <div key={index} className="p-6">
-              <div className="flex items-start justify-between gap-6">
-                <div>
-                  <p className="font-medium text-white">{claim.claim}</p>
+          {claims.map((claim, index) => {
+            const verdictConfig = {
+              SUPPORTED: {
+                label: "SUPPORTED",
+                icon: CheckCircle2,
+                className: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
+              },
+              CONTRADICTED: {
+                label: "CONTRADICTED",
+                icon: XCircle,
+                className: "text-red-400 bg-red-500/10 border-red-500/20",
+              },
+              UNCERTAIN: {
+                label: "UNCERTAIN",
+                icon: AlertTriangle,
+                className: "text-amber-400 bg-amber-500/10 border-amber-500/20",
+              },
+            }[claim.verdict];
 
-                  <p className="mt-2 text-sm leading-6 text-slate-400">
-                    {claim.reason}
-                  </p>
+            const VerdictIcon = verdictConfig.icon;
+
+            return (
+              <div key={index} className="p-6">
+                <div className="flex items-start justify-between gap-6">
+                  <div>
+                    <p className="font-medium text-white">{claim.claim}</p>
+
+                    <p className="mt-2 text-sm leading-6 text-slate-400">
+                      {claim.reason}
+                    </p>
+                  </div>
+
+                  <div
+                    className={`inline-flex items-center gap-2 rounded-lg border px-3 py-1.5 text-xs font-medium ${verdictConfig.className}`}
+                  >
+                    <VerdictIcon className="h-4 w-4" />
+                    {verdictConfig.label}
+                  </div>
                 </div>
-
-                <span
-                  className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium ${
-                    claim.verdict === "SUPPORTED"
-                      ? "bg-emerald-500/10 text-emerald-400"
-                      : claim.verdict === "CONTRADICTED"
-                        ? "bg-red-500/10 text-red-400"
-                        : "bg-amber-500/10 text-amber-400"
-                  }`}
-                >
-                  {claim.verdict}
-                </span>
-              </div>
 
               <div className="mt-5 grid gap-4 sm:grid-cols-2">
                 <div>
@@ -143,7 +160,8 @@ function VerificationResult({
                 </div>
               )}
             </div>
-          ))}
+          );
+        })}
         </div>
       </div>
     </div>

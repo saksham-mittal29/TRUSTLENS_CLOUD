@@ -46,6 +46,7 @@ def verify_firebase_token(id_token: str):
         return decoded_token
 
     except Exception as exc:
+        print("🔥 FIREBASE TOKEN VERIFICATION ERROR:", repr(exc))
         raise ValueError(
             f"Invalid Firebase ID token: {str(exc)}"
         )

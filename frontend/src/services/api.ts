@@ -43,6 +43,8 @@ export async function verifyResponse(
 export async function getVerificationHistory(): Promise<VerificationHistoryResponse> {
   const user = auth.currentUser;
 
+  console.log("🔥 Firebase currentUser:", user);
+
   if (!user) {
     throw new Error("User is not authenticated.");
   }
