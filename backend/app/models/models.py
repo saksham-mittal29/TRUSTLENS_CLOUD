@@ -164,3 +164,57 @@ class Evidence(Base):
     claim: Mapped["Claim"] = relationship(
         back_populates="evidence"
     )
+
+
+class SourceReliability(Base):
+    __tablename__ = "source_reliability"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    domain: Mapped[str] = mapped_column(
+        String(255),
+        unique=True,
+        nullable=False,
+        index=True
+    )
+
+    total_evaluations: Mapped[int] = mapped_column(
+        Integer,
+        default=0,
+        nullable=False
+    )
+
+    supported_count: Mapped[int] = mapped_column(
+        Integer,
+        default=0,
+        nullable=False
+    )
+
+    contradicted_count: Mapped[int] = mapped_column(
+        Integer,
+        default=0,
+        nullable=False
+    )
+
+    uncertain_count: Mapped[int] = mapped_column(
+        Integer,
+        default=0,
+        nullable=False
+    )
+
+    historical_reliability: Mapped[float] = mapped_column(
+        Float,
+        default=50.0,
+        nullable=False
+    )
+
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow
+    )
+
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=datetime.utcnow,
+        onupdate=datetime.utcnow
+    )
+

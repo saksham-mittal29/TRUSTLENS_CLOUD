@@ -17,6 +17,7 @@ def validate_verification(verification: dict, evidence: list):
     confidence = verification.get("confidence", 0)
     reason = verification.get("reason", "")
     evidence_quality = verification.get("evidence_quality", 0)
+    source_agreement = verification.get("source_agreement", 0)
     relevant_sources = verification.get("relevant_sources", [])
 
     allowed_verdicts = {
@@ -41,6 +42,13 @@ def validate_verification(verification: dict, evidence: list):
         evidence_quality = 0
 
     evidence_quality = max(0, min(100, evidence_quality))
+
+    try:
+        source_agreement = int(source_agreement)
+    except (ValueError, TypeError):
+        source_agreement = 0
+
+    source_agreement = max(0, min(100, source_agreement))
 
     if not isinstance(reason, str):
         reason = str(reason)
@@ -67,7 +75,8 @@ def validate_verification(verification: dict, evidence: list):
         "confidence": confidence,
         "reason": reason,
         "evidence_quality": evidence_quality,
-        "relevant_sources": relevant_sources
+        "relevant_sources": relevant_sources,
+        "source_agreement": source_agreement
     }
 
 def verify_claim(claim: str, evidence: list):
@@ -140,7 +149,8 @@ Return ONLY valid JSON in exactly this format:
     "confidence": 95,
     "reason": "Short explanation based on the evidence.",
     "evidence_quality": 90,
-    "relevant_sources": [1, 2, 3]
+    "relevant_sources": [1, 2, 3],
+    "source_agreement": 90
 }}
 
 Rules:
@@ -179,6 +189,11 @@ If no sources provide useful evidence:
 
 6. reason must briefly explain why the verdict was selected.
 
+7. source_agreement is an integer from 0-100 measuring how strongly the relevant sources independently agree with each other about the claim.
+8. Give a high source_agreement when multiple independent sources provide consistent evidence.
+9. Give a low source_agreement when sources conflict, disagree, or provide inconsistent information.
+10. If only one useful source exists, source_agreement should generally be lower because there is no independent source confirmation.
+
 Do not include markdown.
 Do not include ```json.
 Return JSON only.
@@ -204,4 +219,25 @@ CLAIM:
             f"Gemini returned invalid verification JSON: {text}"
         )
 
-    return validate_verification(verification, evidence)
+    validated = validate_verification(verification, evidence)
+
+    relevant_sources = validated["relevant_sources"]
+
+    source_reliabilities = [
+        evidence[index - 1].get("source_reliability", 0)
+        for index in relevant_sources
+    ]
+
+    if source_reliabilities:
+        average_source_reliability = (
+            sum(source_reliabilities) / len(source_reliabilities)
+        )
+    else:
+        average_source_reliability = 0
+
+    validated["source_reliability"] = round(
+        average_source_reliability,
+        2
+    )
+
+    return validated

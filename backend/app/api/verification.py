@@ -10,6 +10,11 @@ from app.services.claim_verifier import verify_claim
 from app.services.trust_score import calculate_trust_score
 from app.services.verification_repository import save_verification
 from app.services.user_repository import get_or_create_user
+from app.services.source_reliability_repository import (
+    get_domain,
+    get_historical_reliability,
+    update_source_reliability,
+)
 
 
 router = APIRouter()
@@ -78,6 +83,34 @@ def verify_response(
                 "relevant_sources": []
             }
 
+        relevant_sources = verification.get("relevant_sources", [])
+
+        historical_reliabilities = []
+
+        for source_number in relevant_sources:
+            if 1 <= source_number <= len(evidence):
+                source = evidence[source_number - 1]
+                domain = get_domain(source.get("url", ""))
+
+                if domain:
+                    historical_reliabilities.append(
+                        get_historical_reliability(
+                            db=db,
+                            domain=domain,
+                        )
+                    )
+
+        if historical_reliabilities:
+            verification["historical_reliability"] = round(
+                sum(historical_reliabilities)
+                / len(historical_reliabilities),
+                2,
+            )
+        else:
+            verification["historical_reliability"] = 50.0
+
+
+
         # Build complete claim result
         verification_results.append({
             "claim": claim,
@@ -85,6 +118,9 @@ def verify_response(
             "confidence": verification.get("confidence", 0),
             "reason": verification.get("reason", ""),
             "evidence_quality": verification.get("evidence_quality", 0),
+            "source_agreement": verification.get("source_agreement", 0),
+            "source_reliability": verification.get("source_reliability", 0),
+            "historical_reliability": verification.get("historical_reliability", 50.0),
             "relevant_sources": verification.get("relevant_sources", []),
             "evidence": evidence
         })
@@ -125,7 +161,22 @@ def verify_response(
             detail=f"Failed to save verification: {str(exc)}"
         )
 
-    # Step 5: Return complete result
+    # Step 5: Update historical source reliability
+    for result in verification_results:
+        claim_evidence = result.get("evidence", [])
+        for source_number in result.get("relevant_sources", []):
+            if 1 <= source_number <= len(claim_evidence):
+                source = claim_evidence[source_number - 1]
+                domain = get_domain(source.get("url", ""))
+
+                if domain:
+                    update_source_reliability(
+                        db=db,
+                        domain=domain,
+                        verdict=result.get("verdict", "UNCERTAIN"),
+                    )
+
+    # Step 6: Return complete result
     return {
         "verification_id": saved_verification.id,
         "trust_score": trust_score,

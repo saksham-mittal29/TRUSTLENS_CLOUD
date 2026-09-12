@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "39",
+    "claim": "Saxony is in Ireland.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Saxony - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Saxony",
+        "snippet": "2 days ago - Saxony, officially the Free State ... its largest city is Leipzig. Saxony is the tenth largest of Germany's sixteen states, with an area of 18,450 square kilometres (7,124 sq mi), and the seventh most populous, with more than 4 million inhabitants....",
+        "source_reliability": 70
+      },
+      {
+        "title": "History of Saxony - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_Saxony",
+        "snippet": "July 6, 2026 - The history of Saxony is encompassing the history of modern German state of Saxony and its predecessors in the wider region of Upper Saxony, and also includes the historical overview of various medieval and early modern states named Saxony, situated in regions that initially belonged to the ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Lower Saxony - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lower_Saxony",
+        "snippet": "1 month ago - Lower Saxony is a coastal state (Land) in northwestern Germany. It is the second-largest state by land area, with 47,614 km2 (18,384 sq mi), and fourth-largest in population (8 million in 2021) among the 16 Länder of the Federal Republic of Germany.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Saxony | History, Capital, Map, Population, & Facts | Britannica",
+        "url": "https://www.britannica.com/place/Saxony-state-Germany",
+        "snippet": "1 week ago - Saxony, state, eastern Germany. Present-day Saxony is composed largely of hill and mountain country, with only its northernmost portions and the area around Leipzig descending into the great North European Plain.",
+        "source_reliability": 90
+      },
+      {
+        "title": "Saxony | Germany, Map, History, & Facts | Britannica",
+        "url": "https://www.britannica.com/place/Saxony-historical-region-duchy-and-kingdom-Europe",
+        "snippet": "2 days ago - Encyclopaedia Britannica's editors ... working on that content or via study for an advanced degree.... ... Saxony is a region with a rich history in Europe. It was initially the territory of the Germanic Saxon tribe, located in ...",
+        "source_reliability": 90
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "24",
+    "claim": "Andrew Kevin Walker is only Chinese.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Andrew Kevin Walker - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Kevin_Walker",
+        "snippet": "Andrew Kevin Walker (born August 14, 1964) is an American screenwriter. He is known for having written Seven (1995), for which he earned a nomination for the BAFTA Award for Best Original Screenplay, as well as several other films, including 8mm (1999), Sleepy Hollow (1999) and many uncredited script rewrites.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Andrew Kevin Walker - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q505689",
+        "snippet": "CONOR.SI ID 46474083 subject named as Walker, Andrew Kevin edit 0 references add reference",
+        "source_reliability": 70
+      },
+      {
+        "title": "Andrew Kevin Walker - IMDb",
+        "url": "https://www.imdb.com/name/nm0001825/",
+        "snippet": "Andrew Kevin Walker was born on 14 August 1964 in Altoona, Pennsylvania, USA. He is a writer and actor, known for The Killer (2023), Seven (1995) and Metalocalypse: Army of the Doomstar (2023).",
+        "source_reliability": 60
+      },
+      {
+        "title": "andrew kevin walker",
+        "url": "http://andrewkevinwalker.com/archives.html",
+        "snippet": "andrew kevin walker TheTERRIFYINGtitle page 🙀 from my spec script PSYCHO KILLER is a pretty good disclaimer for this site.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Andrew Kevin Walker — Grokipedia",
+        "url": "https://grokipedia.com/page/Andrew_Kevin_Walker",
+        "snippet": "Andrew Kevin Walker (born August 14, 1964) is an American screenwriter renowned for his contributions to dark, atmospheric thrillers and horror films, most notably as the writer of the psychological crime drama Se7en (1995), directed by David Fincher. [1] Walker was born in Altoona, Pennsylvania, and earned a degree in film from Pennsylvania State University in 1986 before relocating to Los ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "55",
+    "claim": "Papua comprised all of Indonesia.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Papua (province) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Papua_(province)",
+        "snippet": "Papua, formerly known as West Irian[7] and Irian Jaya, [8] is a province of Indonesia, comprising the northern coast of Western New Guinea together with island groups in Cenderawasih Bay to the west.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Indonesia - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indonesia",
+        "snippet": "Indonesia, [b] officially the Republic of Indonesia, [c] is a country in Southeast Asia and Oceania, between the Indian and Pacific oceans. Comprising between 13,000 and 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea, it is the world's largest archipelagic state and the 14th-largest country by area.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Pulau Papua - Wikipedia bahasa Indonesia, ensiklopedia bebas",
+        "url": "https://id.wikipedia.org/wiki/Pulau_Papua",
+        "snippet": "Istilah \"Papua\" juga digunakan untuk merujuk kepada enam provinsi di wilayah Papua yang termasuk dalam wilayah pemerintahan negara Indonesia, yaitu Papua Barat Daya, Papua Barat, Papua Tengah, Papua, Papua Pegunungan, dan Papua Selatan.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Papua | Jayapura, Geography, History, & Facts | BritannicaPAPUA — THE INDONESIA PART OF NEW GUINEA — NAMES, HISTORY ...Papua (province) explainedPapua and Indonesia: A Historical and Geopolitical Analysis ...Pulau Papua - Wikipedia bahasa Indonesia, ensiklopedia bebas",
+        "url": "https://www.britannica.com/place/Papua",
+        "snippet": "Papua, propinsi (or provinsi; province) of Indonesia, spanning roughly the eastern three-fourths of the western half of the island of New Guinea as well as a number of offshore islands—notably, Sorenarwa (Yapen), Yos Sudarso (Dolak), and the Schouten Islands. Papua is bounded by the Pacific Ocean to the north, Papua New Guinea to the east, the Araf... See full list on britannica.com The Maoke Mountains, an extension of the cordillera composing the central highlands of Papua New Guinea, stretch about 400 miles (640 km) east-west across the central part of Papua and rise to an elevation of 16,024 feet (4,884 metres) at Jaya Peak. The summits are heavily forested, except for the highest ones, which consist of glaciated rock. To the north is the east-west valley of the Tariku and Taritatu rivers, tributaries of the northwestward-flowing Mamberamo River. The Van Rees and Gauttier ranges, the latter rising to some 7,450 feet (2,270 metres), separate the east-west valley from the northern coastal lowlands. Extending south of the Maoke Mountains is a wide swampy area drained primarily by the Digul, Pulau, Brazza, Baliem, Lorentz, Momats, Cemara, and Mapi rivers. The high mountain regions are broken by valleys covered with coarse grass, and tropical rainforest vegetation is common. The low-lying areas north of the central mountain range are clothed with dense rainforests. Among the many varieties of trees are palms (sago, coconut, and nipa), sandalwood, ebony, rubber, casuarina, cedar, breadfruit, and mangrove. Orchids and ferns thrive in the rainforests. Papua lies within the Australian faunal region, which means that its animal life is more similar to that of Australia and New Zealand than it is to that of western Indonesia and the Southeast Asian mainland. Notable mammals include marsupials, such as tree kangaroos and cuscuses; monotremes (egg-laying mammals), including several types of echidnas; and a broad array of bats, terrestrial rats, and water rats. Snakes, crocodiles, frilled lizards, and tortoises are among the common reptiles. Typical birdlife includes cassowaries (a type of flightless bird), birds-of-paradise, megapodes (mound builders), bowerbirds, plumed herons, green pigeons, and lories (a type of parrot). In the early 21st century, hundreds of indigenous—or Papuan—peoples together accounted for nearly three-fourths of the province’s population. The remainder consisted of immigrants, largely from Celebes (Sulawesi), Java, and the Moluccas. The indigenous groups speak numerous Papuan languages, while Austronesian languages are spoken by most others. The bulk of the population is Christian (primarily Protestant); Muslims make up the largest religious minority. Local religions are practiced by some of the Papuan communities. The areas surrounding the cities of Jayapura and Nabire on the northern coast, Merauke and Timika on the southern coast, and Wamena in central Papua are the most densely populated, largely by immigrants from other parts of Indonesia. Otherwise, the central mountains, the south-central coastal region, and the river basins of the southeast are predominantly indigenous areas. The swampy flatlands of the north are sparsely populated. Most of the Papua’s people are engaged in agriculture (including forestry and fishing). Rice is the chief food crop, although cassava, sweet potatoes, soybeans, corn (maize), green beans, and peanuts (groundnuts) are also important. Other notable farm products include palm oil, cocoa, and nutmeg. The forests yield timber and copal (varnish resin), while assorted finfish, shrimp, oysters and other shellfish, sea cucumbers, and seaweed are among the products of Papua’s fisheries. Agricultural activities support a small manufacturing sector, the principal products of which include processed foods, lumber, wooden furniture, and other wooden goods. Although mining employs only a small portion of the population, it is by far the largest contributor to Papua’s economy. One of the world’s biggest deposits of copper and gold ore is located at Tembagapura, in the west-central part of the province. Exploitation of those resources has been under way since the early 1970s, despite disruptions caused by long-term guerrilla fighting in the region. Petroleum is also extracted in the area. Internal transport is supported by a growing number of secondary coastal roads, riverboats, and airways that link the major cities in Papua with those in West Papua and other parts of Indonesia. Exclusive academic rate for students! Save 67% on Britannica Premium. See full list on britannica.com The first Europeans to sight the island of New Guinea were the Portuguese in 1511, and what is now the Indonesian portion of the island was subsequently visited by Spanish, Dutch, German, and English explorers. The English attempted to found a colony near Manokwari (now in West Papua) in 1793. The Dutch claimed the western half of New Guinea in 1828, but their first permanent administrative posts, at Fakfak (now in West Papua) and Manokwari, were not set up until 1898. Haji Misbach, a Muslim communist, was exiled by the Dutch to western New Guinea in 1924, and three years later about 1,300 communists were imprisoned there after an uprising in Java. The Japanese occupied the northern part of Dutch New Guinea during World War II until Allied forces recaptured Hollandia (now Jayapura) in 1944. The Netherlands regained sovereignty of western New Guinea at the end of the war and retained it after officially recognizing Indonesia’s independence in 1949. In 1962, after protracted negotiations, the region was placed under United Nations administration, and in 1963 it was transferred to Indonesia, with provision that a plebiscite would be held by 1969 to decide its future status. Opposition to Indonesian rule, led by the Free Papua Movement (Organisasi Papua Merdeka or OPM), erupted almost immediately. The plebiscite took place in 1969, and, though the results were suspect, the area became the Indonesian province of Irian Jaya. The OPM continued to resist Indonesian rule, and violence broke out periodically. In 1999 then president of Indonesia B.J. Habibie divided the area into three provinces: Irian Jaya, Central Irian Jaya, and West Irian Jaya. Largely perceived as a “divide-and-rule” maneuver, the partition met with strong local opposition and consequently was annulled the following year by Habibie’s successor, Abdurrahman Wahid. Wahid not only returned the region to the status of a single province but also granted it a significant degree of autonomy. See full list on britannica.com It was formerly called West Irian and Irian Jaya, and is also referred to as Western New Guinea or West Papua. Papua is the largest and most sparsely inhabited region of Indonesia. What is Papua (province)? Papua is a province of Indonesia, comprising the northern coast of Western New Guinea together with island groups in ... Nov 23, 2025 · Following Indonesia’s declaration of independence in 1945, Papua became a central diplomatic issue between the Netherlands and Indonesia. Indonesia asserted that Papua was part of the former Dutch East Indies and therefore integral to the new republic. Istilah \"Papua\" juga digunakan untuk merujuk kepada enam provinsi di wilayah Papua yang termasuk dalam wilayah pemerintahan negara Indonesia, yaitu Papua Barat Daya, Papua Barat, Papua Tengah, Papua, Papua Pegunungan, dan Papua Selatan.",
+        "source_reliability": 90
+      },
+      {
+        "title": "PAPUA — THE INDONESIA PART OF NEW GUINEA — NAMES, HISTORY ...",
+        "url": "https://factsanddetails.com/indonesia/Minorities_and_Regions/sub6_3j/entry-4032.html",
+        "snippet": "It was formerly called West Irian and Irian Jaya, and is also referred to as Western New Guinea or West Papua. Papua is the largest and most sparsely inhabited region of Indonesia.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "12",
+    "claim": "Mel B released a song on Virgin Records in 2007.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Mel B - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mel_B",
+        "snippet": "2 days ago - ↑ \"Melanie B – Word Up\" Archived 27 September 2007 at the Wayback Machine UK Top 75 Chart Run, Foreverspice.com · ↑ \"Mel B Voodoo Princess\". Programmes. Channel 4. ↑ Packer, Nigel (8 October 2000). \"CD Review: Melanie B\". BBC News. ↑ \"Melanie B – Tell Me\" Archived 4 March 2016 at the Wayback Machine UK Top 200 Chart Run, Foreverspice.com · ↑ \"Mel B leaves Virgin Records...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Mel B discography - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mel_B_discography",
+        "snippet": "2 weeks ago - The discography of Mel B, an English pop singer-songwriter, consists of two studio albums, six singles, six music videos and one DVD. On 9 October 2000 she released her first studio album, \"Hot\", which also included her number one duet with Missy Elliott for the song \"I Want You Back\".",
+        "source_reliability": 70
+      },
+      {
+        "title": "Hot (Mel B album) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hot_(Mel_B_album)",
+        "snippet": "July 8, 2026 - Hot is the debut album by English singer-songwriter Melanie B, released on 9 October 2000 by Virgin Records. Produced during the hiatus of her band the Spice Girls, the singer began recording her solo debut album in 1999.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tell Me (Mel B song) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tell_Me_(Mel_B_song)",
+        "snippet": "May 11, 2026 - Meanwhile, Melanie B worked on her debut solo effort, titled Hot, which she described as \"like a documentary of all the things that I've been going through in the last two years\". \"Tell Me\" was the last song to be written and recorded for the album in March 2000. The singer chose it as the lead single as it was \"very up-to-date [and] very now for me personally\". It was released as in the United Kingdom on 25 September 2000, by Virgin ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Mel B discography — Grokipedia",
+        "url": "https://grokipedia.com/page/Mel_B_discography",
+        "snippet": "January 17, 2026 - Melanie Brown's solo career as Mel B began with a string of singles released under Virgin Records, primarily drawn from her debut album Hot (2000). Her lead singles achieved moderate to strong commercial success in the UK, with several entering the top five on the Official Singles Chart.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "17",
+    "claim": "Tim Roth is an English actor.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Tim Roth - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tim_Roth",
+        "snippet": "Timothy Simon Roth (/ rɒθ /; born 14 May 1961) [2] is an English actor. A prominent member of the Brit Pack group, his accolades include a BAFTA Award, as well as nominations for an Academy Award and a Golden Globe Award.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tim Roth filmography - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tim_Roth_filmography",
+        "snippet": "Tim Roth is an English actor. He won the BAFTA Award for Best Actor in a Supporting Role and was nominated for the Academy Award and the Golden Globe Award in the same category for his role in Rob Roy.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tim Roth - Simple English Wikipedia, the free encyclopedia",
+        "url": "https://simple.wikipedia.org/wiki/Tim_Roth",
+        "snippet": "Tim Roth ... Tim Roth (born 14 May 1961) is an English movie actor and director. He starred in the television series Lie to Me.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tim Roth - IMDbTim Roth - Biography - IMDbTim Roth filmography - WikipediaTim Roth - Simple English Wikipedia, the free encyclopediaTim Roth — The Movie Database (TMDB)Tim Roth - Actor - TV Insider",
+        "url": "https://www.imdb.com/name/nm0000619/",
+        "snippet": "Often mistaken for an American because of his skill at imitating accents, actor Tim Roth was born Timothy Simon Roth on May 14, 1961 in Lambeth, London, England. Often mistaken for an American because of his skill at imitating accents, actor Tim Roth was born Timothy Simon Roth on May 14, 1961 in Lambeth, London, England. Tim Roth is an English actor. He won the BAFTA Award for Best Actor in a Supporting Role and was nominated for the Academy Award and the Golden Globe Award in the same category for his role in Rob Roy. Tim Roth ... Tim Roth (born 14 May 1961) is an English movie actor and director. He starred in the television series Lie to Me. Timothy Simon Roth (born May 14, 1961) is an English actor and director. He was among the prominent British actors known as the \"Brit Pack\". For his performance in Rob Roy (1995), Roth won a BAFTA Award and was nominated for the Academy Award and the Golden Globe Award. Timothy Simon Roth is an English actor and producer. He began acting on films and television series in the 1980s. He was among a group of prominent British ac",
+        "source_reliability": 60
+      },
+      {
+        "title": "Tim Roth - Biography - IMDbTim Roth filmography - WikipediaTim Roth - Simple English Wikipedia, the free encyclopediaTim Roth — The Movie Database (TMDB)Tim Roth - Actor - TV Insider",
+        "url": "https://www.imdb.com/name/nm0000619/bio/",
+        "snippet": "Often mistaken for an American because of his skill at imitating accents, actor Tim Roth was born Timothy Simon Roth on May 14, 1961 in Lambeth, London, England. Tim Roth is an English actor. He won the BAFTA Award for Best Actor in a Supporting Role and was nominated for the Academy Award and the Golden Globe Award in the same category for his role in Rob Roy. Tim Roth ... Tim Roth (born 14 May 1961) is an English movie actor and director. He starred in the television series Lie to Me. Timothy Simon Roth (born May 14, 1961) is an English actor and director. He was among the prominent British actors known as the \"Brit Pack\". For his performance in Rob Roy (1995), Roth won a BAFTA Award and was nominated for the Academy Award and the Golden Globe Award. Timothy Simon Roth is an English actor and producer. He began acting on films and television series in the 1980s. He was among a group of prominent British ac",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "21",
+    "claim": "Telemundo is a English-language television network.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Telemundo - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Telemundo",
+        "snippet": "Telemundo is an American Spanish-language terrestrial television network owned by NBCUniversal Telemundo Enterprises, a division of NBCUniversal, which in ... History · Programming · Stations · Related services",
+        "source_reliability": 70
+      },
+      {
+        "title": "Telemundo - Simple English Wikipedia, the free encyclopedia",
+        "url": "https://simple.wikipedia.org/wiki/Telemundo",
+        "snippet": "Telemundo is a American Spanish language television channel. The channel reaches 58 percent of Hispanic and Latino Americans. On average the channel gets a ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Telemundo and Hispanic immigrants - EBSCO",
+        "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/telemundo-and-hispanic-immigrants",
+        "snippet": "Telemundo is a prominent Spanish-language television network in the United States, launched on March 28, 1954, originally in San Juan, Puerto Rico.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Telemundo | History, Ownership, & Programming - Britannica",
+        "url": "https://www.britannica.com/money/Telemundo",
+        "snippet": "5 days ago · Telemundo is a Spanish-language television network in the United States operated by NBCUniversal Telemundo Enterprises, a division of ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "The peak audience was 31.8 million, with Telemundo also ...",
+        "url": "https://www.facebook.com/nbcphiladelphia/posts/the-peak-audience-was-318-million-with-telemundo-also-making-history/1401327938809668/",
+        "snippet": "2 Jul 2026 · Now, with its compelling dramas and star-studded reality content, Telemundo is back at the top, setting the pace for Spanish-language television ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "56",
+    "claim": "A working animal is trained to perform life saving tasks.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Types and Roles of Working Animals | PDF | Domesticated ... - Scribd",
+        "url": "https://www.scribd.com/document/661257078/Working-animal",
+        "snippet": "Working animals are animals that are kept by humans and trained to perform tasks instead of being slaughtered. They are used for their physical strength, transportation, service work, milking, herding, and sometimes meat after retirement. People have found uses for animals' abilities to pull carts, find things, assist disabled people, transport goods and people, guard property, power machinery ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Working Animal - an overview | ScienceDirect Topics",
+        "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/working-animal",
+        "snippet": "Working animals are defined as live animals, such as bovids, equids, and camelids, that are utilized by humans to perform tasks related to agriculture, transport, and tourism, often contributing significantly to human society and welfare.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Working animal explained",
+        "url": "https://everything.explained.today/working_animals/",
+        "snippet": "A working animal is an animal, usually domesticated, that is kept by humans and trained to perform tasks. Some are used for their physical strength (e.g. ox en and draft horse s) or for transportation (e.g. riding horse s and camel s), while others are service animal s trained to execute certain specialized tasks (e.g. hunting and guide dog s, messenger pigeon s, and fishing cormorant s). They ...",
+        "source_reliability": 50
+      },
+      {
+        "title": "Working animal - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Working_animal",
+        "snippet": "A working animal is an animal, usually domesticated, that is kept by humans and trained to perform tasks. Some are used for their physical strength or for transportation, while others are service animals trained to execute certain specialized tasks. They may also be used for milking or herding. Some, at the end of their working lives, may also be used for meat or leather.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Working animal - Wikiwand",
+        "url": "https://www.wikiwand.com/en/articles/Working_animal",
+        "snippet": "A working animal is an animal, usually domesticated, that is kept by humans and trained to perform tasks. Some are used for their physical strength (e.g. oxen and draft horses) or for transportation (e.g. riding horses and camels), while others are service animals trained to execute certain specialized tasks (e.g. hunting and guide dogs, messenger pigeons, and fishing cormorants). They may ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "59",
+    "claim": "Viola Davis appeared in Kate & Leopold as Darth Maul.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Viola Davis To Executive Produce And Star In 'Ascent' For ...",
+        "url": "https://www.facebook.com/theblkscript/posts/viola-davis-to-executive-produce-and-star-in-ascent-for-paramountparamount-has-g/1023476727339817/",
+        "snippet": "4 Aug 2026 · She was also in Kate & Leopold, Antowne Fisher, Get Rich or Die ... Darth Maul Scenes Cut, Luke Skywalker Replaced During Creative ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Watching Viola Davis react to Michael B. Jordan winning was ...",
+        "url": "https://www.facebook.com/DeairaKRobinson/posts/watching-viola-davis-react-to-michael-b-jordan-winning-was-just-pure-joy-i-had-t/10239551239706616/",
+        "snippet": "2 Mar 2026 · she was also in the romantic comedy Kate & Leopold (2001) and the drama Antwone Fisher (2002).",
+        "source_reliability": 60
+      },
+      {
+        "title": "Actors that have appeared in the Star Wars: Knights of the Old ...",
+        "url": "https://www.imdb.com/list/ls082903997/",
+        "snippet": "April Stewart is an American voice actress from Truckee, California who is known for voicing dozens of female characters from South Park. She also voiced in ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Who's a character that had minimal screentime, but ... - Reddit",
+        "url": "https://www.reddit.com/r/moviecritic/comments/1gf1b15/whos_a_character_that_had_minimal_screentime_but/",
+        "snippet": "29 Oct 2024 · Viola Davis in Kate and Leopold. She's in it for maybe a minute and I knew she was going to be something, (and Solaris too)",
+        "source_reliability": 60
+      },
+      {
+        "title": "Every credited actor who's been in Aardman movies - IMDb",
+        "url": "https://www.imdb.com/list/ls4156797959/",
+        "snippet": "his lead roles in the romantic-comedy fantasy Kate & Leopold (2001), Julia Davis 101. Julia Davis Actress. Kate can be heard on Audible's \"The Big Ben Theory\" ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "34",
+    "claim": "Giada at Home was only available on DVD.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Amazon.com: Giada At Home",
+        "url": "https://www.amazon.com/giada-at-home/s?k=giada+at+home",
+        "snippet": "Giada at Home 2008 Prime Video Starring: Giada De Laurentiis and Raffaella De Laurentiis Directed by: Anne Fox",
+        "source_reliability": 60
+      },
+      {
+        "title": "Amazon.com: Giada at Home: Season 1 : Movies & TVGIADA AT HOME - The Complete First 1 One Season DVD - eBayGiada at Home: Season 1 One DVD - 3 Disc Set Food Network - eBayGiada at Home: Season 1 DVDs and Blu-rays - ThriftBooksGiada at Home: Season 1 DVD - Blu-rayGiada at Home Season 5 | TV Series DVDs & Blu-rays - Target",
+        "url": "https://www.amazon.com/Giada-at-Home-Season-1/dp/B004JAUDL8",
+        "snippet": "Help others learn more about this product by uploading a video! Jun 27, 2025 · This DVD set is a must-have for fans of Giada and those who appreciate a good laugh. The format provides an intimate look at Gilda's world, and the DVD's high-quality audio and video ensure an enjoyable viewing experience. Get ready to be entertained with this classic TV show! The \"Giada at Home: Season 1\" DVD set is a collection of the popular Food Network TV series featuring chef Giada De Laurentiis. This 3-disc set includes all episodes from the first season of the show, which showcases Giada's passion for Italian cuisine and her expertise in creating delicious dishes. Purchase the Giada at Home: Season 1 DVDs and Blu-rays on DVD and Blu-ray from ThriftBooks. Free Shipping on all orders over $15. Giada at Home: Season 1 DVD. DVD reviews, news, specs, ratings, screenshots. Cheap DVD movies and deals. Discover Giada at Home Season 5 and more. Explore The Donna Reed Show Seasons 1-5, Chicago Fire Season 5, and other popular TV series in DVD and Blu-ray formats. Perfect for fans of classic and modern TV shows.",
+        "source_reliability": 60
+      },
+      {
+        "title": "GIADA AT HOME - The Complete First 1 One Season DVD - eBay",
+        "url": "https://www.ebay.com/itm/277093962842",
+        "snippet": "Jun 27, 2025 · This DVD set is a must-have for fans of Giada and those who appreciate a good laugh. The format provides an intimate look at Gilda's world, and the DVD's high-quality audio and video ensure an enjoyable viewing experience. Get ready to be entertained with this classic TV show!",
+        "source_reliability": 60
+      },
+      {
+        "title": "Giada at Home: Season 1 One DVD - 3 Disc Set Food Network - eBay",
+        "url": "https://www.ebay.com/itm/267733401581",
+        "snippet": "The \"Giada at Home: Season 1\" DVD set is a collection of the popular Food Network TV series featuring chef Giada De Laurentiis. This 3-disc set includes all episodes from the first season of the show, which showcases Giada's passion for Italian cuisine and her expertise in creating delicious dishes.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Giada at Home: Season 1 DVDs and Blu-rays - ThriftBooks",
+        "url": "https://www.thriftbooks.com/w/giada-at-home-season-1/1000089201/",
+        "snippet": "Purchase the Giada at Home: Season 1 DVDs and Blu-rays on DVD and Blu-ray from ThriftBooks. Free Shipping on all orders over $15.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "20",
+    "claim": "Jack Falahee is a person who acts.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Jack Falahee - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jack_Falahee",
+        "snippet": "Jack Falahee (born February 20, 1989) is an American actor and singer. On television, he portrayed Connor Walsh on the ABC legal thriller How to Get Away ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Hey! It's Jack Falahee aka Connor Walsh. What's up /htgawm",
+        "url": "https://www.reddit.com/r/htgawm/comments/1ovh60q/hey_its_jack_falahee_aka_connor_walsh_whats_up/",
+        "snippet": "12 Nov 2025 · It's Jack Falahee aka Connor Walsh. recurring characters like Simon Drake, ADA Atwood, Emily Sinclair, Denver, Eve Rothlo, Sam Keating, etc. ... Surprised the actors haven't done well outside this show - Reddit Best acting? : r/htgawm - Reddit More results from www.reddit.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "You might know Jack Falahee from the hit ABC series, How to ...",
+        "url": "https://www.facebook.com/innocenceproject/videos/you-might-know-jack-falahee-from-the-hit-abc-series-how-to-get-away-with-murder-/869820385601824/",
+        "snippet": "19 Dec 2025 · You might know Jack Falahee from the hit ABC series, How to Get Away with Murder, where he plays a lawyer. But did you know, ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Jack Falahee - Biography - IMDb",
+        "url": "https://www.imdb.com/name/nm3924265/bio/",
+        "snippet": "Actor: How to Get Away with Murder. Falahee appeared in films and television shows, before his breakout role as Connor Walsh in the Shonda Rhimes-produced ABC ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Jack Falahee's HTGAWM Costar Aja Naomi King Helped Him ...",
+        "url": "https://www.facebook.com/usmagazine/posts/jack-falahee-is-eternally-grateful-to-his-former-htgawm-costar-aja-naomi-king-fo/1024283469569605/",
+        "snippet": "29 Mar 2025 · Looks, personality and charm. John Ryan \"Jack\" Falahee (born February 20, 1989) is an American actor. He is known for his role as Connor Walsh ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "10",
+    "claim": "James VI and I was a major advocate of a single parliament for Scotland and England.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "James VI and I - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/James_VI_and_I",
+        "snippet": "1 day ago - He reigned in all three kingdoms ... Union of the Crowns in 1603, he based himself in England, returning to Scotland only once in 1617, and styled himself King of Great Britain and Ireland. He advocated for a single parliament for England and Scotland....",
+        "source_reliability": 70
+      },
+      {
+        "title": "James I and the English Parliament - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/James_VI_and_I_and_the_English_Parliament",
+        "snippet": "March 26, 2026 - Though recent studies have shown ... in Scotland and reconciled himself to the independent stance of the English Parliament and its unwillingness to bow readily to his policies. The source of concern was that the King and Parliament adhered to two mutually, extended exclusive views about the ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Jacobean debate on the Union - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jacobean_debate_on_the_Union",
+        "snippet": "May 10, 2026 - The Jacobean debate on the Union ... as James VI of Scotland, and was interested in uniting his Kingdoms of England (including Wales) and Scotland. With one monarch on the two thrones there was a personal union; since James was very widely accepted in England, the debate was not on that plane. A political union with a common Parliament (called ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "James VI and I: Monarch of Scotland & England | PDF | James Vi And I | Mary, Queen Of Scots",
+        "url": "https://www.scribd.com/document/427655328/James-VI-of-Scotland",
+        "snippet": "He was a major advocate of a single parliament for England and Scotland. In his reign, the Plantation of Ulster and British colonisation of the Americas began. longer than those of any of his predecessors.",
+        "source_reliability": 60
+      },
+      {
+        "title": "History's King James VI and I | Reign Wiki | Fandom",
+        "url": "https://reign.fandom.com/wiki/History's_King_James_VI_and_I",
+        "snippet": "July 14, 2026 - After the Union of the Crowns, ... and styled himself \"King of Great Britain and Ireland\". He was a major advocate of a single parliament for England and Scotland....",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "37",
+    "claim": "Magic Johnson did not play for the Lakers.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Magic Johnson - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+        "snippet": "Johnson resigned from the Lakers, citing his desire to return to his role as an NBA ambassador.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Magic Johnson : When magic and basketball become one",
+        "url": "https://parisbasketball.com/en/basketball-101/magic-johnson-when-magic-and-basketball-become-one-2/",
+        "snippet": "30 Oct 2025 · Drafted first overall by the Lakers by a certain Kareem Abdul-Jabbar in 1979, Magic Johnson arrived with the daunting task of continuing the ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Magic Johnson was the only All-NBA player on the Lakers for ...",
+        "url": "https://www.reddit.com/r/nba/comments/1sc5p2l/magic_johnson_was_the_only_allnba_player_on_the/",
+        "snippet": "4 Apr 2026 · Magic Johnson claims he resigned as the Lakers president because the ownership wouldn't let him fire Who Remembers Magic Johnson on the 1996 Lakers? - Reddit Magic Johnson didn't hold back while responding to Anthony ... More results from www.reddit.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "Magic Johnson gave his thoughts on the Lakers' offseason ...",
+        "url": "https://www.facebook.com/lakersnation/posts/magic-johnson-gave-his-thoughts-on-the-lakers-offseason-moves/1453485393477856/",
+        "snippet": "27 Jul 2026 · Magic Johnson spoke to the media and announced that he would step down from his position as president of basketball operations for the Lakers.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Magic Johnson | Biography, Medal of Freedom, Stats, Real ...",
+        "url": "https://www.britannica.com/biography/Magic-Johnson",
+        "snippet": "12 Aug 2026 · Magic Johnson played for the Los Angeles Lakers. As a Laker, Johnson won five NBA championships in 1980, 1982, 1985, 1987, and 1988. During his ...",
+        "source_reliability": 90
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "32",
+    "claim": "Advertising is a personal message.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Advertising - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Advertising",
+        "snippet": "Advertising is the practice and techniques employed to bring attention to a product or service. Advertising aims to present a product or service in terms of utility, advantages, and qualities of interest to consumers.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Advertising Message | Meaning, Importance & Key Elements",
+        "url": "https://www.educba.com/advertising-message/",
+        "snippet": "An advertising message is the central idea or statement a brand communicates to its audience through advertisements. It tells customers what the brand offers, why it matters, and what action they should take.",
+        "source_reliability": 60
+      },
+      {
+        "title": "[FREE] Advertising is a personal communication from an ...",
+        "url": "https://brainly.com/question/55813956",
+        "snippet": "Dec 12, 2024 · The statement about advertising is true as it involves personal communication from an identifiable sponsor using mass media to persuade consumers. Advertising is a paid form of communication aimed at influencing an audience's behavior regarding products or services.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Advertising vs. Personal Selling: Key Differences in ...",
+        "url": "https://slm.mba/mmpm-002/advertising-vs-personal-selling-key-differences/",
+        "snippet": "Dec 15, 2025 · Advertising is a paid, non-personal form of communication delivered by an identified sponsor through mass media channels like television, radio, newspapers, hoardings, websites, and social platforms. The advertiser controls the message and pays for the reach, but there is no direct human interaction with the audience.",
+        "source_reliability": 50
+      },
+      {
+        "title": "Understanding Advertising: Beyond the Basics • Journalism ...",
+        "url": "https://journalism.university/introduction-to-journalism-and-mass-communication/understanding-advertising-beyond-basics/",
+        "snippet": "Feb 18, 2026 · In the context of mass communication, advertising is the paid, impersonal, one-way promotion of persuasive information from a sponsor, using mass communication channels to encourage the adoption of products or ideas.",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "46",
+    "claim": "House is a sitcom.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "House (TV series) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/House_(TV_series)",
+        "snippet": "1 day ago - House (also known as House, M.D. and Dr. House in some international markets) is an American medical drama television series created by David Shore for Fox. It aired for eight seasons from November 16, 2004 to May 21, 2012. It focuses on Dr.",
+        "source_reliability": 70
+      },
+      {
+        "title": "List of House episodes - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_House_episodes",
+        "snippet": "August 1, 2026 - House, also known as House, M.D., is an American medical drama series which ran for eight seasons on Fox. On November 16, 2004, House was created by David Shore. The show follows Gregory House (Hugh Laurie), a maverick medical genius who heads a team of diagnosticians at the fictional ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "House (TV Series 2004–2012) - IMDb",
+        "url": "https://www.imdb.com/title/tt0412142/",
+        "snippet": "1 week ago - Normally when I watch a series, I mildly enjoy it and wander through the series mindlessly, particularly with sitcoms. On very rare occasions, a show will pop up that I enjoy the main actor so much I follow him around for a couple years. This happened with House. Hugh Laurie plays the part so perfectly and does this incredible thing where you absolutely hate him and love him at the same time. You want him to be happy, but you also can't help but feel like he deserves some of the things he goes through. The thing that impressed me the most about House is the fact that House stays House from the first episode of season one to the last one of season eight.",
+        "source_reliability": 60
+      },
+      {
+        "title": "The House - sitcom - British Comedy Guide",
+        "url": "https://www.comedy.co.uk/online/the-house/",
+        "snippet": "A guide to The House, the 2025 British Comedy Guide online sitcom. Audio sitcom about three thirty-somethings sharing a house in Levenshulme, Manchester.",
+        "source_reliability": 50
+      },
+      {
+        "title": "House | Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/tv/house",
+        "snippet": "November 16, 2004 - H.E.R. and Liza Soberano wants you to cherish Filipino culture in Forgotten Island Link to H.E.R. and Liza Soberano wants you to cherish Filipino culture in Forgotten Island View All ... Avg. Tomatometer ... Avg. Popcornmeter ... At fictional Princeton Plainsboro Teaching Hospital in New Jersey, prickly genius Dr. Gregory House tackles health mysteries as would a medical Sherlock Holmes, all the while playing mind games with colleagues that include his best friend, oncologist James Wilson.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "31",
+    "claim": "Bermuda Triangle is in the western part of the Himalayas.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Bermuda Triangle - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+        "snippet": "The Bermuda Triangle, also known as the Devil's Triangle, is a loosely defined region in the North Atlantic Ocean, roughly bounded by Florida, Bermuda, and Puerto Rico.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Where Is the Bermuda Triangle? Location, Map & Facts ...",
+        "url": "https://geographyworlds.com/blog/where-is-the-bermuda-triangle/",
+        "snippet": "On a world map, the Bermuda Triangle occupies a section of the western North Atlantic Ocean between the southeastern coast of the United States, Bermuda (a British territory 1,070 km east of the US), and Puerto Rico.",
+        "source_reliability": 60
+      },
+      {
+        "title": "The Mystery of the Bermuda Triangle: Where Fear, Fascination ...",
+        "url": "https://www.sciencenewstoday.org/the-mystery-of-the-bermuda-triangle-where-fear-fascination-and-fact-collide",
+        "snippet": "Dec 31, 2025 · The Bermuda Triangle is a loosely defined region in the western North Atlantic Ocean. Although there is no officially recognized boundary, the area is commonly described as forming a triangle between Miami in Florida, Bermuda in the North Atlantic, and San Juan in Puerto Rico.",
+        "source_reliability": 70
+      },
+      {
+        "title": "The Bermuda Triangle: Between Maritime Mystery and Modern Myth",
+        "url": "https://www.historysearch.org/2026/05/the-bermuda-triangle-between-maritime.html",
+        "snippet": "May 24, 2026 · This is the story of the Bermuda Triangle — a loosely defined stretch of the western North Atlantic Ocean, roughly bounded by Bermuda, Miami, and Puerto Rico. For decades it has been portrayed as a place where ships and planes disappear under strange circumstances, where compasses spin wildly, and where the laws of nature seem to bend. While many scientists dismiss it as a myth built on ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "What is the Bermuda Triangle? - Answers - Maps of World",
+        "url": "https://www.mapsofworld.com/answers/disasters/what-is-bermuda-triangle/",
+        "snippet": "The infamous Bermuda Triangle or so called ‘Devil’s Triangle’ is a loosely defined region in the western part of North Atlantic Ocean. It roughly forms a mythical triangle stretching over 400,000 square miles (700,000 square kilometers) between Florida, the Bermuda Islands, and Puerto Rico.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "50",
+    "claim": "Colin Kaepernick became a starter during the 49ers 63rd season in the Republican Party.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Colin Kaepernick - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Colin_Kaepernick",
+        "snippet": "He became the 49ers' starter in the middle of the 2012 season after Smith was injured and led the team to Super Bowl XLVII, the team's first Super Bowl appearance since 1994.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Colin Kaepernick | American Football Wiki | Fandom",
+        "url": "https://americanfootball.fandom.com/wiki/Colin_Kaepernick",
+        "snippet": "In the middle of the 2012 season, Kaepernick filled in for an injured Smith and became the full-time starter as the 49ers advanced to the NFL playoffs for the second straight season.",
+        "source_reliability": 60
+      },
+      {
+        "title": "San Francisco 49ers: Colin Kaepernick and an NFL Story of ...",
+        "url": "https://bleacherreport.com/articles/2284189-san-francisco-49ers-colin-kaepernick-and-an-nfl-story-of-unrecognized-success",
+        "snippet": "Nov 30, 2014 · The San Francisco 49ers made Colin Kaepernick their starting quarterback midway through the 2012 season. Kaepernick’s promotion also came a mere two weeks after his 25th birthday.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Colin Kaepernick - One of Football’s Most Inspiring Quarterbacks",
+        "url": "https://sportsplayer.com/colin-kaepernick",
+        "snippet": "He had inspirational leadership skills, which he demonstrated when filling in for Smith when the 49ers were already Super Bowl contenders. Kaepernick handled the unexpected situation with confidence and poise. The response from his teammates speaks for itself.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Colin Kaepernick - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Colin_Kaepernick",
+        "snippet": "He became the 49ers' starter in the middle of the 2012 season after Smith was injured and led the team to Super Bowl XLVII, the team's first Super Bowl appearance since 1994.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "4",
+    "claim": "Nicholas Brody is a character on Homeland.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Nicholas Brody - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nicholas_Brody",
+        "snippet": "August 3, 2026 - Nicholas Brody, played by actor Damian Lewis, is a fictional character on the American television series Homeland on Showtime, created by Alex Gansa and Howard Gordon. Brody is a United States Marine Corps Private who is held as a prisoner of war by al-Qaeda terrorists for eight years.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Homeland (TV series) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Homeland_(TV_series)",
+        "snippet": "1 week ago - It is based on the Israeli series Prisoners of War, created by Gideon Raff, who also serves as an executive producer on Homeland. The series stars Claire Danes as Carrie Mathison, a CIA officer with bipolar disorder, convinced that decorated Marine Corps scout sniper Nicholas Brody (Damian Lewis) ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Nicholas Brody | Homeland TV Wiki | Fandom",
+        "url": "https://homeland.fandom.com/wiki/Nicholas_Brody",
+        "snippet": "July 29, 2026 - Nicholas Brody is a pivotal character in the hit television series \"Homeland\" that captivates viewers with his intriguing storyline. Initially portrayed as a Prisoner of War (POW), he is eventually hailed as a hero upon his return to the United ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "r/homeland on Reddit: What are your final thoughts on Sgt. Nicholas Brody?",
+        "url": "https://www.reddit.com/r/homeland/comments/1dgkjb1/what_are_your_final_thoughts_on_sgt_nicholas_brody/",
+        "snippet": "June 15, 2024 - Together, Brody and Carrie are tragic characters who could never have a happily ever after. I think the most terrible thing of all was that Nicholas Brody was unable to redeem himself in front of his family (Dana, Jessica) or even what he had done to Carrie in the first season... and himself. I LOVE Homeland...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Nicholas Brody | Villains Wiki | Fandom",
+        "url": "https://villains.fandom.com/wiki/Nicholas_Brody",
+        "snippet": "July 29, 2026 - Nicholas \"Nick\" Brody is one of the two main protagonists (alongside Carrie Mathison) of the first three seasons of the American television/drama thriller series Homeland. Sgt. Nicholas Brody is a fictional character in the American television ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "22",
+    "claim": "Damon Albarn's debut album was released in 2011.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Damon Albarn - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Damon_Albarn",
+        "snippet": "2 weeks ago - Albarn formed the virtual band ... debut album in 2001 to worldwide success and have continued to release albums and tour. Albarn remains the group's only consistent musical contributor. His other projects include the supergroups the Good, the Bad & the Queen and Rocket Juice & the Moon. He co-founded the non-profit musical organisation Africa Express and has composed film soundtracks. Albarn also scored the stage productions Monkey: Journey to the West (2007), Dr Dee (2011) and Wonder.land ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Damon Albarn discography - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Damon_Albarn_discography",
+        "snippet": "2 weeks ago - Aside from Gorillaz, Albarn has also recorded albums with various other side-projects and groups including Mali Music (2002) with Afel Bocoum, Toumani Diabaté and other Malian musicians, The Good, the Bad & the Queen with Tony Allen, Paul Simonon and Simon Tong, Kinshasa One Two (2011) as part ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Everyday Robots - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Everyday_Robots",
+        "snippet": "May 25, 2026 - Everyday Robots is the debut solo studio album by British musician Damon Albarn, best known as the frontman of Blur and Gorillaz. Described by Albarn as his \"most personal record\", the album was co-produced by Richard Russell and released on 25 April 2014. It features guest contributions from ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Damon Albarn — Biography, Discography, Albums & Expert Reviews | AllMusic",
+        "url": "https://www.allmusic.com/artist/damon-albarn-mn0000668164",
+        "snippet": "He made Kinshasa One Two, a 2011 album made with DRC Music (Democratic Republic of the Congo Music), Richard Russell, and Dan the Automator; released on Warp, it was designed to showcase modern musicians in Congo.",
+        "source_reliability": 60
+      },
+      {
+        "title": "When did Damon Albarn's first album release?",
+        "url": "https://genius.com/artists/Damon-albarn/q/first-album",
+        "snippet": "Damon Albarn is known for being ... The Good, The Bad and The Queen. On April 28th 2014 he released his debut solo album Everyday Robots....",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "51",
+    "claim": "Marnie was directed by someone who was \"The Master of Nothing\".",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "When Marnie Was There (film) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/When_Marnie_Was_There_(film)",
+        "snippet": "6 days ago - When Marnie Was There (Japanese: 思い出のマーニー, Hepburn: Omoide no Mānī; lit. 'Marnie of [My] Memories') is a 2014 Japanese animated psychological drama film co-written and directed by Hiromasa Yonebayashi, produced by Studio Ghibli and distributed by Toho.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Is the film 'Marnie' a flawed classic? - Quora",
+        "url": "https://www.quora.com/Is-the-film-Marnie-a-flawed-classic",
+        "snippet": "Answer (1 of 6): TIPPI HEDREN’S OTHER FILM The film MARNIE (1964) was the second and last film collaboration between Tippi Hedren and the Master of Suspense, Alfred Hitchcock. The film was his last attempt to make her a big star. The film has not always been considered a “classic” Hitchcock ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Marnie (1964) directed by Alfred Hitchcock • Reviews, film + cast • Letterboxd",
+        "url": "https://letterboxd.com/film/marnie/",
+        "snippet": "It cannot be assumed that Hitchcock ever seriously would have been able to court then-Princess Grace (Kelly) to return to Hollywood for the lead part of Marnie. Beyond being just a scheming sociopath of a character, she is also subjected to a rape scene that Hitchcock, true to form, filmed with all the lustful eroticism of his murders. It’s more plausible to read the director’s claims to be wooing the Princess for the… ... tippi hedren plays a baltimore crip who wilds out whenever she sees the color red in this underrated masterpiece from alfred hitchcocc",
+        "source_reliability": 60
+      },
+      {
+        "title": "Out of Frame: When Marnie Was There | DCist",
+        "url": "https://dcist.com/story/15/06/12/out-of-frame-when-marnie-was-there/",
+        "snippet": "June 12, 2015 - When Marnie Was There Directed by Hiromasa Yonebayashi Written by Keiko Niwa, Masashi Ando, and Hiromasa Yonebayashi; based on the novel by Joan G. Robinson. With Sara Takatsuki, Kasumi Arimura, Nanako Matsushima (subtitled version); Hailee ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "When Marnie Was There | Ghibli Wiki | Fandom",
+        "url": "https://ghibli.fandom.com/wiki/When_Marnie_Was_There",
+        "snippet": "March 12, 2026 - When Marnie Was There (思い出のマーニー , Omoide no Mānī, literally Marnie of [My] Memories) is the 21st animated psychological drama film written and directed by Hiromasa Yonebayashi, produced by Studio Ghibli and released on July ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "5",
+    "claim": "CBS is the network that aired The Millers.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "The Millers - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Millers",
+        "snippet": "On November 15, 2014, CBS canceled The Millers after citing \"underwhelming\" ratings in its new Monday berth, most recently pulling in a 1.5 rating in adults 18–49.",
+        "source_reliability": 70
+      },
+      {
+        "title": "List of The Millers episodes - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_The_Millers_episodes",
+        "snippet": "The multi-camera series premiered on CBS as part of the 2013–14 American television season and aired from October 3, 2013, to July 18, 2015. [1][2] The Millers is set in Leesburg, Virginia, where Nathan Miller is a local television news reporter.",
+        "source_reliability": 70
+      },
+      {
+        "title": "The Millers | CBS Broadcast Archives Wiki | Fandom",
+        "url": "https://cbs-broadcast-archives.fandom.com/wiki/The_Millers",
+        "snippet": "The Millers is a sitcom that aired from October 3, 2013 until July 18, 2015 on CBS. The following is a list of The Millers episodes in production order.",
+        "source_reliability": 60
+      },
+      {
+        "title": "The Millers - Wikiwand",
+        "url": "https://www.wikiwand.com/en/The_Millers",
+        "snippet": "The Millers is an American sitcom television series that was created by Greg Garcia and stars Will Arnett as Nathan Miller and Margo Martindale as Carol Miller. The multi-camera series aired from October 3, 2013, to July 18, 2015, and ran 34 episodes over two seasons on CBS.",
+        "source_reliability": 60
+      },
+      {
+        "title": "The Millers | CBS Wiki | Fandom",
+        "url": "https://cbs.fandom.com/wiki/The_Millers",
+        "snippet": "The Millers is an American television sitcom that aired on CBS from October 3, 2013 to July 18, 2015. The series had a total of 48 episodes. The series was cancelled on November 14, 2014, due to the pulling off the air.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "30",
+    "claim": "Simón Bolívar is only known as Simón Bolívar.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Simón Bolívar - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+        "snippet": "Venezuelan military officer and statesman who. Bolivia, Colombia, Ecuador, He is known colloquially as El Libertador, \"the Liberator,\" of America. Bolívar only ... Political and military career · Personal beliefs · Legacy",
+        "source_reliability": 70
+      },
+      {
+        "title": "Simón Bolívar is one of the most influential figures in South ...",
+        "url": "https://www.facebook.com/PortugalNews/posts/simón-bolívar-is-one-of-the-most-influential-figures-in-south-american-history-r/1715618273159273/",
+        "snippet": "26 Feb 2026 · Simón Bolívar was a Venezuelan military leader who became known as \"El Libertador\" (The Liberator) after spearheading successful independence ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Simon Bolivar - Simón Bolívar - Britannica",
+        "url": "https://www.britannica.com/biography/Simon-Bolivar",
+        "snippet": "24 Jul 2026 · Simón Bolívar was a Venezuelan soldier and statesman who played a central role in the South American independence movement. Bolívar served as ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "Simón Bolívar Memorial (U.S. National Park Service)",
+        "url": "https://www.nps.gov/places/000/general-simon-bolivar-memorial.htm",
+        "snippet": "22 Dec 2025 · Simón Bolívar (1783-1830) known as \"The Liberator\" fought in more than 200 battles against the Spanish in the fight for South American ...",
+        "source_reliability": 95
+      },
+      {
+        "title": "Simón Bolívar: Theorist of Empire? - JHI Blog",
+        "url": "https://www.jhiblog.org/2021/10/20/simon-bolivar-theorist-of-empire/",
+        "snippet": "20 Oct 2021 · Bolívar was one of the first Americans to advocate outright independence from Spain (1811, at the latest), and he judged British support as ...",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "11",
+    "claim": "Marcus Bentley is a broadcaster.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Marcus Bentley - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marcus_Bentley",
+        "snippet": "Marcus Bentley (born 4 October 1967) is a British actor, broadcaster and voice-over artist. Bentley is most known for narrating the British version of the Dutch reality television programme Big Brother since its inception in 2000.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Marcus Bentley - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Marcus_Bentley",
+        "snippet": "Marcus Bentley is a British actor, broadcaster and voice-over artist. Bentley is most known for narrating the UK version of the Dutch reality television programme Big Brother since its inception in 2000.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Marcus Bentley - grokipedia.com",
+        "url": "https://grokipedia.com/page/Marcus_Bentley",
+        "snippet": "Marcus Bentley (born 4 October 1967) is a British actor, broadcaster and voice-over artist. Bentley is most known for narrating the British version of the Dutch reality television programme Big Brother (TV series) since its inception in 2000.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Marcus Bentley - Narrator of Big Brother Voice over. Event ...Marcus Bentley Biography: The Powerful Voice Behind British ...Marcus Bentley Explained",
+        "url": "https://uk.linkedin.com/in/marcus-bentley-65a102bb",
+        "snippet": "Marcus Bentley is a seasoned events host and MC, and is a regular ‘Voice of God’ at awards ceremonies and events all over the Uk. Marcus is best known for being the iconic ’Voice of Big... Jan 29, 2026 · Marcus Bentley is a British actor and voice-over professional best known for narrating one of the most successful reality television franchises in the United Kingdom. His voice has become strongly associated with Big Brother, making him a defining part of the show’s identity. Marcus Bentley (born 4 October 1967) is a British actor, broadcaster and voice-over artist. Bentley is most known for narrating the British version of the Dutch reality television programme Big Brother since its inception in 2000. Who is Marcus Bentley? Actor and the Narrator of TV 's Big Brother \"Day one in the Big Brother house!\" Event Voice of God specialist and presenter. Marcus Bentley is a seasoned events host and MC, and is a regular ‘Voice of God’ at awards ceremonies and events all over the Uk. Marcus is best known for being the iconic ’Voice of Big Brother’. Who is Big Brother narrator Marcus Bentley? Marcus Bentley (born 4 October 1967) is a British actor, broadcaster and voice-over artist. Bentley is most known for narrating the British version of the Dutch reality television programme Big Brother since its inception in 2000. Who is Marcus on 'Big Brother'? Marcus is best known for being the iconic ’Voice of Big Brother’. Over the years he has become a household favourite, having proudly completed over 2000 episodes of the hit reality show. Throughout his career Marcus has developed and honed a rich and versatile style which The Guardian described as being like ‘melted caramel’. What TV shows has Marcus a voice narrated? His voice has featured on numerous TV programs including ‘Have I Got News for You’, ‘8 Out of Ten Cats’, ‘Good Morning Britain’ and Ricky Gervais’s ‘Extras’, as well as being chosen as the voice of the prestigious BBC Proms. Marcus has also narrated many documentaries for television.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Marcus Bentley Biography: The Powerful Voice Behind British ...",
+        "url": "https://writerblog.co.uk/marcus-bentley/",
+        "snippet": "Jan 29, 2026 · Marcus Bentley is a British actor and voice-over professional best known for narrating one of the most successful reality television franchises in the United Kingdom. His voice has become strongly associated with Big Brother, making him a defining part of the show’s identity.",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "60",
+    "claim": "Caroline Kennedy is a Catholic.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Caroline Kennedy - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Caroline_Kennedy",
+        "snippet": "Caroline Bouvier Kennedy was born on November 27, 1957, at New York Hospital to Jacqueline Bouvier Kennedy and John F. Kennedy, then a U.S. senator from Massachusetts. She is named after her maternal aunt, Lee Radziwill, and maternal great-great-grandmother, Caroline Ewing Bouvier.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Pope ‘rejects Caroline Kennedy for being too liberal’",
+        "url": "https://www.thetimes.com/travel/destinations/europe-travel/italy/pope-rejects-caroline-kennedy-for-being-too-liberal-trf77vw0nff",
+        "snippet": "Caroline Kennedy, the Roman Catholic daughter of the assassinated President, has been rejected by the Vatican as the next US ambassador to the Holy See because of her liberal views on abortion, stem-cell research and same-sex marriage, according to Vatican insiders.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Why did the Catholic clergy give Caroline Kennedy a pass?",
+        "url": "https://www.silive.com/opinion/columns/2012/09/why_did_the_catholic_clergy_gi.html",
+        "snippet": "Sep 15, 2012 · Thus, it was somewhat startling to see JFK's daughter, Caroline Kennedy, invoke her father's name and describe herself as a \"Catholic woman\" while espousing a passionate defense of abortion...",
+        "source_reliability": 60
+      },
+      {
+        "title": "The House of Kennedy Still Struggles with Jewish Reality",
+        "url": "https://pjmedia.com/david-manney/2025/11/15/the-house-of-kennedy-still-struggles-with-jewish-reality-n4946035",
+        "snippet": "Nov 15, 2025 · His mother, Caroline Kennedy, is Catholic, while his father, Edwin Schlossberg, is Jewish and describes himself as 100% half Jewish.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Is Caroline Kennedy's children Jewish or Catholic? - Answers",
+        "url": "https://www.answers.com/united-states-government/Is_Caroline_Kennedy's_children_Jewish_or_Catholic",
+        "snippet": "Aug 19, 2023 · In her biography, \"American Legacy\", it states that the pre-nuptial agreement between Schlossberg and Kennedy required that the children be baptized and reared Catholic - which they were.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "23",
+    "claim": "Savages was exclusively a German film.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Savages (2012) - Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Savages_(2012)",
+        "snippet": "Der Film beginnt mit Szenen aus einem Lagerhaus in Mexiko. Dort werden mehrere gefangene Männer von einem maskierten Mann mit einer Kettensäge bedroht. Es deutet sich an, dass er sie ermorden wird. Die folgende Geschichte wird in einer Rückblende von Ophelia „O\" Sage erzählt: Die Surfer Ben und Chon führen mit O in einer Strandvilla im kalifornischen Laguna Beach eine ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Savages (2012 film) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Savages_(2012_film)",
+        "snippet": "Savages is a 2012 American action thriller film directed by Oliver Stone. Its screenplay, written by Stone, Don Winslow and Shane Salerno, is based on Winslow's 2010 novel.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Savages - Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Savages",
+        "snippet": "Savages oder The Savages bezeichnet: Savages (1972), US-amerikanischer Film von James Ivory Savages (1973), Theaterstück von Christopher Hampton Savages (1974), US-amerikanischer Fernsehfilm von Lee H. Katzin The Savages (2001), britische Fernsehserie The Savages (2007), deutscher Titel Die Geschwister Savage, US-amerikanischer Film von Tamara Jenkins The Savages, die Band von Screaming Lord ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Savages (film) — Wikipédia",
+        "url": "https://fr.wikipedia.org/wiki/Savages_(film)",
+        "snippet": "Savages ou Sauvages au Québec est un film américain réalisé par Oliver Stone et sorti en 2012. Adapté du roman du même nom de Don Winslow, il met en vedette Taylor Kitsch, Blake Lively, Aaron Taylor-Johnson, John Travolta, Benicio del Toro et Salma Hayek.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Savages - Film 2012 - FILMSTARTS.de",
+        "url": "https://www.filmstarts.de/kritiken/178686.html",
+        "snippet": "Savages ist ein Film von Oliver Stone mit Taylor Kitsch, Aaron Taylor-Johnson. Synopsis: Die gegensätzlichen, aber guten Freunde Ben (Aaron Johnson) und Chon (Taylor Kitsch) betreiben zusammen ...",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "42",
+    "claim": "Tilda Swinton is a vegan.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Tilda Swinton - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tilda_Swinton",
+        "snippet": "2.21990s: Rise to prominence. 2.32000s: Career breakthrough. 2.42010s: Continued acclaim. 2.52020s: Current work. 3Personal life. Toggle Personal life subsection.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tilda Swinton Diet Plan and Workout Routine - Health YogiDoes everyone agree that Tilda Swinton is most likely a vegan?Tilda Swinton - Wikipedia10 Things You (Probably) Didn't Know About Tilda SwintonMaking the Film 'Okja' Turned Director Bong Joon Ho into a VeganWhat religion is Tilda Swinton? - BeliefnetTilda Swinton opens up about her sexuality - IMDb",
+        "url": "https://www.health-yogi.com/tilda-swinton-diet-workout/",
+        "snippet": "Tilda Swinton diet plan is not necessarily based on vegan foods but she avoids eating meats. Swinton used to add a high amount of proteins, fibers, clean carbs, and nutrients to her daily diet plan. Does everyone agree that Tilda Swinton is most likely a vegan? Hey guys I just wanted to say that I think Tilda Swinton is most likely a vegan. That's how she was able to be so tall beautiful and skinny when she was young. Too bad she's not beautiful anymore though. 2.21990s: Rise to prominence. 2.32000s: Career breakthrough. 2.42010s: Continued acclaim. 2.52020s: Current work. 3Personal life. Toggle Personal life subsection. 5 days ago · Tilda Swinton has built one of the most distinctive careers in contemporary cinema, moving effortlessly between arthouse experiments and global blockbusters. Jun 28, 2017 · Mirando’s CEO, played brilliantly by Joon Ho muse Tilda Swinton is hoping a worldwide contest promoting organic, naturally-grown meat will change the public’s perception that her company... Amid the glitz and glam of Hollywood, Tilda Swinton has maintained a private yet profound connection with Buddhism, a practice that significantly influences her life and work. Actress Tilda Swinton has revealed she identifies herself as queer, and says that she has finally found her queer circus. \"I always felt I was queer - I was just looking for my queer circus, and I found it,\" said the actress, who is currently in a relationship with painter Sandro Kopp.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Does everyone agree that Tilda Swinton is most likely a vegan?",
+        "url": "https://www.reddit.com/r/stupidquestions/comments/lwweo2/does_everyone_agree_that_tilda_swinton_is_most/",
+        "snippet": "Does everyone agree that Tilda Swinton is most likely a vegan? Hey guys I just wanted to say that I think Tilda Swinton is most likely a vegan. That's how she was able to be so tall beautiful and skinny when she was young. Too bad she's not beautiful anymore though.",
+        "source_reliability": 60
+      },
+      {
+        "title": "10 Things You (Probably) Didn't Know About Tilda Swinton",
+        "url": "https://fictionhorizon.com/10-things-you-probably-didnt-know-about-tilda-swinton/",
+        "snippet": "5 days ago · Tilda Swinton has built one of the most distinctive careers in contemporary cinema, moving effortlessly between arthouse experiments and global blockbusters.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Making the Film 'Okja' Turned Director Bong Joon Ho into a VeganWhat religion is Tilda Swinton? - BeliefnetTilda Swinton opens up about her sexuality - IMDb",
+        "url": "https://www.vice.com/en/article/making-the-film-okja-turned-director-bong-joon-ho-into-a-vegan/",
+        "snippet": "Jun 28, 2017 · Mirando’s CEO, played brilliantly by Joon Ho muse Tilda Swinton is hoping a worldwide contest promoting organic, naturally-grown meat will change the public’s perception that her company... Amid the glitz and glam of Hollywood, Tilda Swinton has maintained a private yet profound connection with Buddhism, a practice that significantly influences her life and work. Actress Tilda Swinton has revealed she identifies herself as queer, and says that she has finally found her queer circus. \"I always felt I was queer - I was just looking for my queer circus, and I found it,\" said the actress, who is currently in a relationship with painter Sandro Kopp.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "25",
+    "claim": "Murda Beatz's real name is Marshall Mathers.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Public image of Eminem - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Public_image_of_Eminem",
+        "snippet": "Throughout his career, American rapper Eminem has received recognition as a public figure. His transgressive work during the late 1990s and early 2000s made ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "“50 WAS BIGGER THAN MARSHALL WAS!” Eminem's ...",
+        "url": "https://www.facebook.com/djwhookid/posts/50-was-bigger-than-marshall-was-eminems-legendary-manager-paul-rosenberg-sat-dow/1538677100951965/",
+        "snippet": "6 Jun 2026 · The Lyrical Genius Eminem, born Marshall Bruce Mathers III, is widely regarded as one of the greatest rappers of all time.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Which American rapper's real name is Marshall Mathers ?",
+        "url": "https://www.facebook.com/groups/510183964152552/posts/540170764487205/",
+        "snippet": "27 May 2022 · Marshall Bruce Mathers III ・ a, better known to all of us professionally as Mase, formerly Murda Mase ・ he is an American rapper, songwriter ... Eminem is a trillion times better than Tupac. Tupac was no ... Jackson Merrill resembles Eminem - Facebook More results from www.facebook.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "Songbook: A Deep Dive Into Eminem's Inimitable Career",
+        "url": "https://www.grammy.com/news/eminem-albums-eras-songbook-marshall-mathers-lp/",
+        "snippet": "23 May 2025 · Marshall Bruce Mathers III is a man of many names. But no matter what you call him — Marshall, Slim Shady, or the name by which he's best-known ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Eminem - Extraordinary Nobodies",
+        "url": "https://extraordinarynobodies.net/tag/eminem/",
+        "snippet": "Rick Rubin served as the main executive producer. Marshall Mathers LP2, his “real name, no gimmicks” tagline served as the perfect balance to the alias-focused ...",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "1",
+    "claim": "Fox 2000 Pictures released the film Soul Food.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Soul Food (film) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Soul_Food_(film)",
+        "snippet": "Soul Food, told through the eyes of 11-year-old Ahmad, follows the trials of the Joseph family, a close-knit Chicago family that gets together to have Sunday dinner every week, with plenty of soul food to go around.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Soul Food | Moviepedia | Fandom",
+        "url": "https://movies.fandom.com/wiki/Soul_Food",
+        "snippet": "Soul Food is a 1997 American comedy-drama film produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds and Robert Teitel and released by Fox 2000 Pictures. Featuring an ensemble cast, the film stars Vanessa L. Williams, Vivica A. Fox, Nia Long, Michael Beach, Mekhi Phifer, Jeffrey D. Sams, Irma...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Soul Food (1997) - IMDbSoul Food (film) - The JH Movie Collection's Official WikiSoul Food (film) - Academic Dictionaries and EncyclopediasSoul Food (film) | Idea Wiki | FandomSoul Food (film) - Alchetron, The Free Social Encyclopedia",
+        "url": "https://www.imdb.com/title/tt0120169/",
+        "snippet": "Soul Food: Directed by George Tillman Jr.. With Vanessa Williams, Vivica A. Fox, Nia Long, Michael Beach. One person can keep a family together and, when that one person is gone, a family can be torn apart. Soul Food is a 1997 American comedy-drama film produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds and Robert Teitel and released by Fox 2000 Pictures. Featuring an ensemble cast, the film stars Vanessa L. Williams... \"Soul Food\" is a 1997film, produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds, and Robert Teitel, and released by Fox 2000 Pictures. Soul Food is a 1997 American comedy-drama film produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds and Robert Teitel and released by Fox 2000 Pictures. Featuring an ensemble cast, the film stars Vanessa Williams, Vivica A. Fox, Nia Long, Michael Beach, Mekhi Phifer, Jeffrey D. Sams, Irma P... Feb 12, 2026 · There's Plenty For Everyone! Soul Food is a 1997 American comedy-drama film produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds and Robert Teitel and released by Fox 2000 Pictures.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Soul Food (film) - The JH Movie Collection's Official Wiki",
+        "url": "https://the-jh-movie-collection-official.fandom.com/wiki/Soul_Food_(film)",
+        "snippet": "Soul Food is a 1997 American comedy-drama film produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds and Robert Teitel and released by Fox 2000 Pictures. Featuring an ensemble cast, the film stars Vanessa L. Williams...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Soul Food (film) - Academic Dictionaries and Encyclopedias",
+        "url": "https://en-academic.com/dic.nsf/enwiki/537573",
+        "snippet": "\"Soul Food\" is a 1997film, produced by Kenneth \"Babyface\" Edmonds, Tracey Edmonds, and Robert Teitel, and released by Fox 2000 Pictures.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "45",
+    "claim": "Shooter is about an expert marksman who tries to stop the assassination of the president.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Lee Harvey Oswald - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lee_Harvey_Oswald",
+        "snippet": "Lee Harvey Oswald (October 18, 1939 – November 24, 1963) was a U.S. Marine veteran, who assassinated John F. Kennedy, the 35th president of the United ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Shooter (2007) - Plot - IMDb",
+        "url": "https://www.imdb.com/title/tt0822854/plotsummary/",
+        "snippet": "There was a time when Bob Lee Swagger (Mark Wahlberg) was the best trigger-man in the military, but after growing disillusioned with the system, he disappeared ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "November 1963 Based on a true story Two shooters, one truth ...",
+        "url": "https://www.facebook.com/johntravolta/posts/november-1963based-on-a-true-story-two-shooters-one-truth-history-rewritten/1677838277034351/",
+        "snippet": "3 hours ago · Oswald in the doorway: the blog of the Oswald Innocence Campaign, by Ralph Cinque. Dennis Flinchum and 4 others. 5 reactions ·. 3 comments.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Shooter is now on Netflix. An expert sniper is coaxed out of ...",
+        "url": "https://www.facebook.com/NetflixUKandIrelandFanpage/posts/shooter-is-now-on-netflixan-expert-sniper-is-coaxed-out-of-seclusion-by-colleagu/1390913383063960/",
+        "snippet": "18 Apr 2026 · ... stop an assassination attempt against the president. No photo ... Shooter movie review: Bob Lee's mission to stop a presidential assassin.",
+        "source_reliability": 60
+      },
+      {
+        "title": "When he's framed for attempting to assassinate the President, a ...",
+        "url": "https://www.facebook.com/netflixus/videos/shooter-trailer/910723239585088/",
+        "snippet": "14 Mar 2022 · Mark Wahlberg stars in Shooter. Now on Netflix. ... Alex Cornejo isn't this the movie we were looking for last time? ... The gun expert is the ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "26",
+    "claim": "Charles Manson has been proven innocent of all crimes.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Charles Manson - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Manson",
+        "snippet": "Charles Milles Manson was an American criminal, cult leader, and musician who was the founder of the Manson Family. He gained notoriety for ordering the ... 1934–1967: Early life · 1969–1971: Crimes and trial",
+        "source_reliability": 70
+      },
+      {
+        "title": "CMV: Charles Manson did nothing wrong. - Reddit",
+        "url": "https://www.reddit.com/r/changemyview/comments/a96ktx/cmv_charles_manson_did_nothing_wrong/",
+        "snippet": "24 Dec 2018 · While Manson started as a petty criminal, there's reason to believe that he wasn't one any longer by the time he started ordering killings. On ... anyone think Charles Manson was wrongfully convicted? - Reddit TIL Charles Manson was not initially arrested for the Tate ... More results from www.reddit.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "charles manson, 1934 – 2017 - LA Times e-newspaper",
+        "url": "https://enewspaper.latimes.com/infinity/article_popover_share.aspx",
+        "snippet": "Charles Manson was an unlikely figure to evolve into the personification of evil. A few inches over five feet, he was a petty criminal and small-time ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Previously unheard prison recordings reveal Charles Manson's ...",
+        "url": "https://www.facebook.com/netflixnaija/posts/previously-unheard-prison-recordings-reveal-charles-mansons-story-in-his-own-wor/1371855518388445/",
+        "snippet": "12 Aug 2026 · Previously unheard prison recordings reveal Charles Manson's story in his own words. CONVERSATIONS WITH A KILLER: THE CHARLES MANSON TAPES ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Charles Manson | History | Research Starters - EBSCO",
+        "url": "https://www.ebsco.com/research-starters/history/charles-manson",
+        "snippet": "Charles Manson was a notorious American criminal and cult leader, born in Cincinnati, Ohio, in 1934. Raised in a strict religious environment, ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "53",
+    "claim": "In the End has baseball in it.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Glossary of baseball terms - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_baseball_terms",
+        "snippet": "An important element of Baltimore Orioles coach John McGraw 's \"inside baseball\" strategy, the technique was popularized during Major League Baseball 's dead-ball era, during which baseball teams could not rely on the home run.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Glossary of English-language idioms derived from baseball",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_English-language_idioms_derived_from_baseball",
+        "snippet": "In baseball, when a team that has been behind in runs ties up the game, it is sometimes said to be a brand new ballgame. This does not mean that the game starts over from the first inning; it only means that neither team is ahead, and the game continues.",
+        "source_reliability": 70
+      },
+      {
+        "title": "MLB Schedule 2026: Baseball Games Today | MLB Schedule",
+        "url": "https://www.mlb.com/schedule",
+        "snippet": "The official schedule of Major League Baseball including probable pitchers, Gameday, ticket and postseason information.",
+        "source_reliability": 60
+      },
+      {
+        "title": "How a Baseball or Softball Game Ends in the Simple Rules",
+        "url": "http://official-rules.org/how_the_game_ends/index.htm",
+        "snippet": "Innings and the end of the game in the official rules of the Major Leagues, Little League, youth leagues--including Dixie Youth and Babe Ruth--and softball. For beginners, including foreign visitors.",
+        "source_reliability": 70
+      },
+      {
+        "title": "35 Top Baseball Metaphors, Sayings & Idioms – Symbolism ...",
+        "url": "https://symbolismandmetaphor.com/baseball-metaphors-and-idioms/",
+        "snippet": "4 days ago · “Inside baseball” terms are terms that only baseball players and fans really understand. So when someone says that you’re talking “inside baseball”, it means you’re talking about things that the everyday person doesn’t know or care about.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "19",
+    "claim": "Jenna Jameson worked as a glamor model and a stripper.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Jenna Jameson - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jenna_Jameson",
+        "snippet": "Jameson started acting in erotic videos in 1993 after having worked as a stripper and glamour model. By 1996, she had won the \"Top Newcomer\" award from each of the three major adult movie organizations.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Biography of Jenna Jameson",
+        "url": "https://www.biographies.net/people/en/jenna_jameson",
+        "snippet": "She started acting in erotic videos in 1993 after having worked as a stripper and glamor model. By 1996, she had won the \"top newcomer\" award from each of the three major adult-movie organizations.",
+        "source_reliability": 50
+      },
+      {
+        "title": "Jenna Jameson — The Movie Database (TMDB)",
+        "url": "https://www.themoviedb.org/person/26223-jenna-jameson",
+        "snippet": "She started acting in erotic videos in 1993 after having worked as a stripper and glamour model. By 1996, she had won the \"Top Newcomer\" award from each of the three major adult movie organizations.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Jenna Jameson, Date of Birth, Place of Birth - Born Glorious",
+        "url": "https://www.bornglorious.com/person/?pi=400",
+        "snippet": "She has been named the world's most famous adult entertainment performer and \"The Queen of Porn\".She started acting in erotic videos in 1993 after having worked as a stripper and glamor model. By 1996, she had won the \"top newcomer\" award from each of the three major adult movie organizations.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Jenna Jameson (American Porn Actress) ~ Wiki & Bio with ...Jenna Jameson — GrokipediaJenna Jameson - Profile - Filmography | MovieWiser",
+        "url": "https://alchetron.com/Jenna-Jameson",
+        "snippet": "Apr 25, 2026 · She started acting in erotic videos in 1993 after having worked as a stripperand glamor model. By 1996, she had won the \"top newcomer\" award from each of the three major adult-movie organizations. [1][2]Rising to fame in the 1990s after beginning her career as a stripper and glamour model, Jameson starred in over 100 pornographic films, earning widespread recognition as one of the industry's most prominent performers, often referred to as the \"Queen of Porn.\" She started acting in erotic videos in 1993 after having worked as a stripper and glamour model. By 1996, she had won the \"Top Newcomer\" award from each of the three major adult movie organizations.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "29",
+    "claim": "Janet Leigh was incapable of writing.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Janet Leigh - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Janet_Leigh",
+        "snippet": "She wrote four books between 1984 and 2002, two of which were novels. On October 3, 2004, she died at the age of 77 of vasculitis. Jeanette Helen Morrison was born on July 6, 1927, in Merced, California, the child of Helen Lita (née Westergaard) and Frederick Robert Morrison. [1] .",
+        "source_reliability": 70
+      },
+      {
+        "title": "Janet Leigh - Simple English Wikipedia, the free encyclopedia",
+        "url": "https://simple.wikipedia.org/wiki/Janet_Leigh",
+        "snippet": "Jeanette Helen Morrison (July 6, 1927 – October 3, 2004), known professionally as Janet Leigh, was an American actress, singer, dancer, and author. She is best known for her role in Psycho, for which she won a Golden Globe Award and was nominated for an Academy Award for Best Supporting Actress.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Janet Leigh - Complete Biography | AceShowbiz",
+        "url": "https://www.aceshowbiz.com/celebrity/janet_leigh/biography.html",
+        "snippet": "Beyond the screen, Leigh was an accomplished author, writing four books between 1984 and 2002, including two novels.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Janet Leigh - Alchetron, The Free Social EncyclopediaJanet Leigh Biography - life, parents, name, history, school ...Janet Leigh - New World EncyclopediaJanet Leigh - Wikiwand",
+        "url": "https://alchetron.com/Janet-Leigh",
+        "snippet": "Apr 25, 2026 · Leigh died in 2004 at age 77, following a year-long battle with vasculitis, an inflammation of the blood vessels. Among her survivors was her husband of 42 years, Robert Brandt. Leigh, just 19, went for a screen test and was awarded a $50-a-week contract with MGM. The studio renamed her Janet Leigh and sent her to work with a drama coach. The work paid off and Leigh earned the female lead in the 1947 Civil Warera drama The Romance of Rosy Ridge, playing a mountain girl. Although Janet Leigh performed in myriads of films, acted in television shows, produced albums, and published novels, she will always be known for her role in Psycho. Jeanette Helen Morrison, known professionally as Janet Leigh, was an American actress, businesswoman and author. Leigh was established as one of the earliest scream queens for starring in horror films, and is also known for starring in dramatic productions for Metro-Goldwyn-Mayer (MGM). Who is Janet Leigh? Jeanette Helen Morrison (July 6, 1927 – October 3, 2004), known professionally as Janet Leigh, was an American actress, businesswoman and author. Leigh was established as one of the earliest scream queens for starring in horror films, and is also known for starring in dramatic productions for Metro-Goldwyn-Mayer (MGM). When did Janet Leigh die? She died in 2004 at age 77, following a year-long battle with vasculitis. Jeanette Helen Morrison, known professionally as Janet Leigh, was an American actress. Her career spanned over five decades. Why did Janet Leigh change her name? During the shooting, Leigh's name was first changed to \"Jeanette Reames\", then to \"Janet Leigh\" and finally back to her birth name \"Jeanette Morrison\", because \"Janet Leigh\" resembled Vivien Leigh too much. However, Johnson did not like the name and it was finally changed back to \"Janet Leigh\" (pronounced \"Lee\"). Where was Janet Leigh buried? The memorial is located in the downtown Stockton plaza adjacent to the City Center Cinemas, since renamed \"Janet Leigh Plaza\". Leigh was a Democrat and appeared alongside Tony Curtis at the 1960 Democratic National Convention. Leigh died at her home in Los Angeles on October 3, 2004, at age 77, from vasculitis.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Janet Leigh Biography - life, parents, name, history, school ...",
+        "url": "https://www.notablebiographies.com/newsmakers2/2005-La-Pr/Leigh-Janet.html",
+        "snippet": "Leigh, just 19, went for a screen test and was awarded a $50-a-week contract with MGM. The studio renamed her Janet Leigh and sent her to work with a drama coach. The work paid off and Leigh earned the female lead in the 1947 Civil Warera drama The Romance of Rosy Ridge, playing a mountain girl.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "40",
+    "claim": "Noah Cyrus is a younger sister of Macy Grey.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Following Dolly Parton's death, Noah Cyrus has opened up ...",
+        "url": "https://www.facebook.com/iwmbuzz/posts/following-dolly-partons-death-noah-cyrus-has-opened-up-about-the-special-connect/1620511492963894/",
+        "snippet": "28 Aug 2026 · Noah accompanied her words with personal memories and an emotional performance of “I Will Always Love You” with sister Miley #DollyParton # ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Samsung Made for Summer hosts Noah Cyrus - The Knockturnal",
+        "url": "https://theknockturnal.com/samsung-made-for-summer-hosts-noah-cyrus/",
+        "snippet": "7 Aug 2017 · Actress turned singer Noah and also younger sister of Miley Cyrus has already topped billboard charts with hit singles like 'Make Me' and 'Stay ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Noah Cyrus' Net Worth 2026: What Miley's Sister Earns - Parade",
+        "url": "https://parade.com/celebrities/noah-cyrus-net-worth",
+        "snippet": "Noah Cyrus may be the youngest of the Cyrus children, her famous older sister, Miley. simply being Miley Cyrus' sister.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Thank you Noah Cyrus for your beautiful 'Loretta's Song.' We ...",
+        "url": "https://www.facebook.com/homefreevocalband/videos/thank-you-noah-cyrus-for-your-beautiful-lorettas-song-we-were-so-touched-by-the-/1301380038526963/",
+        "snippet": "25 Mar 2026 · I unexpectedly lost my younger sister 8 yrs ago. And the last song ... Singer-songwriter Macy Leigh performs a new, emotional song ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Billy Ray Cyrus' 6 Kids: All About His Sons and Daughters",
+        "url": "https://people.com/parents/all-about-billy-ray-cyrus-kids/",
+        "snippet": "26 May 2026 · Billy Ray's youngest child, daughter Noah Cyrus, was born in Nashville on Jan. 8, 2000. As a kid, Noah appeared in several episodes of Hannah ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "27",
+    "claim": "Sean Penn is only ever a stage actor.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Sean Penn - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sean_Penn",
+        "snippet": "Sean Justin Penn (born August 17, 1960) is an American actor and filmmaker. He is known for his intense leading man roles in film.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Sean Penn won best supporting male actor for his performance ...",
+        "url": "https://www.facebook.com/wesh2news/posts/sean-penn-won-best-supporting-male-actor-for-his-performance-in-one-battle-after/955547153653870/",
+        "snippet": "1 Mar 2026 · Sean Penn won best supporting male actor for his performance in \"One Battle After Another\" and Catherine O'Hara won a posthumous award at ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "What is the consensus on Sean Penn? I recently learned he ...",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1ez1iq4/what_is_the_consensus_on_sean_penn_i_recently/",
+        "snippet": "23 Aug 2024 · I recently learned he has 2 Oscar's. But I feel he isn't as revered as some actors who don't have one/have less nominations. I'm new to the film ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Sean Penn | Oscars, One Battle After Another, Movies, Age, TV ...",
+        "url": "https://www.britannica.com/biography/Sean-Penn",
+        "snippet": "30 Aug 2026 · Sean Penn has won the Academy Award for best actor twice, for Mystic River (2003) and Milk (2008). He also received best actor Oscar nominations ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "A remarkable performance from the legend - #seanpenn",
+        "url": "https://www.facebook.com/cinequest/videos/a-remarkable-performance-from-the-legend-seanpenn-video-by-outstandingscreenplay/33234344016209244/",
+        "snippet": "1 Jan 2026 · Sean Penn is only the fourth man in history to achieve three acting Oscars, standing. 00:37. Sean Penn is only the fourth man in ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "49",
+    "claim": "Annette Badland was in the 2015 NBA Finals.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Annette Badland - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Annette_Badland",
+        "snippet": "Annette Badland (born 26 August 1950) is a British actress known for a wide range of roles on television, radio, stage, and film.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Annette Badland — Wikipédia",
+        "url": "https://fr.wikipedia.org/wiki/Annette_Badland",
+        "snippet": "Annette Badland est en couple avec l'acteur David Hatton. Ils se sont rencontrés pour la première en 1979 lors d'un spectacle où Hatton était dans le public et elle sur scène.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Annette Badland - Biography - IMDbAnnette Badland - IMDbAnnette Badland Biography: Husband, Ethnicity, Awards ...Annette Badland Movie List & TV Appearances | AceShowbizAnnette Badland — WikipédiaAnnette Badland - actress - biography, photo, best movies and ...",
+        "url": "https://www.imdb.com/name/nm0046183/bio/",
+        "snippet": "On 18 September 2016, it was announced that Badland had been axed from the serial by new executive producer, Sean O'Connor, with the character making her final appearance on 9 February 2017. She made her first on-screen appearance in the episode broadcast on 31 January 2014. On 18 September 2016, it was announced that Badland had been axed from the serial by new executive producer, Sean O'Connor, with the character making her final appearance on 9 February 2017. Annette Badland has been in a long-term partnership with David Hatton since the late 20th century; the couple is unmarried and has no children. Badland has spoken publicly about growing up as an only child and her close relationship with her mother. All Annette Badland movies and TV appearances. Full filmography with roles and release dates. Annette Badland est en couple avec l'acteur David Hatton. Ils se sont rencontrés pour la première en 1979 lors d'un spectacle où Hatton était dans le public et elle sur scène. 2015 — Babe Smith Where did Annette Badland go to school? Trained at the East 15 Acting School on the outskirts of London. Annette Badland. Actress: Charlie and the Chocolate Factory. Annette Badland is an English actress known for a wide range of roles on TV, radio and film. When did Annette Badland start acting? Annette Badland began her acting career in the 1970s with stage work and small television roles, including appearances in Z-Cars and Play for Today. Her early film work included a small part in the cult classic The Pink Panther Strikes Again (1976). Who is Annette Badland? She was nominated for the Laurence Olivier Award for Best Actress in a Supporting Role in 1993 for her performance as Sadie in Jim Cartwright 's play The Rise and Fall of Little Voice; a role she reprised in the 1998 film adaptation Little Voice. Annette Badland was born in Edgbaston, Birmingham. What ethnicity is Annette Badland? She is of White ethnicity with Scottish and English descent; her religious affiliation is not publicly known. Annette Badland began her acting career in the 1970s with stage work and small television roles, including appearances in Z-Cars and Play for Today.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Annette Badland - IMDbAnnette Badland Biography: Husband, Ethnicity, Awards ...Annette Badland Movie List & TV Appearances | AceShowbizAnnette Badland — WikipédiaAnnette Badland - actress - biography, photo, best movies and ...",
+        "url": "https://www.imdb.com/name/nm0046183/",
+        "snippet": "She made her first on-screen appearance in the episode broadcast on 31 January 2014. On 18 September 2016, it was announced that Badland had been axed from the serial by new executive producer, Sean O'Connor, with the character making her final appearance on 9 February 2017. Annette Badland has been in a long-term partnership with David Hatton since the late 20th century; the couple is unmarried and has no children. Badland has spoken publicly about growing up as an only child and her close relationship with her mother. All Annette Badland movies and TV appearances. Full filmography with roles and release dates. Annette Badland est en couple avec l'acteur David Hatton. Ils se sont rencontrés pour la première en 1979 lors d'un spectacle où Hatton était dans le public et elle sur scène. 2015 — Babe Smith Where did Annette Badland go to school? Trained at the East 15 Acting School on the outskirts of London. Annette Badland. Actress: Charlie and the Chocolate Factory. Annette Badland is an English actress known for a wide range of roles on TV, radio and film. When did Annette Badland start acting? Annette Badland began her acting career in the 1970s with stage work and small television roles, including appearances in Z-Cars and Play for Today. Her early film work included a small part in the cult classic The Pink Panther Strikes Again (1976). Who is Annette Badland? She was nominated for the Laurence Olivier Award for Best Actress in a Supporting Role in 1993 for her performance as Sadie in Jim Cartwright 's play The Rise and Fall of Little Voice; a role she reprised in the 1998 film adaptation Little Voice. Annette Badland was born in Edgbaston, Birmingham. What ethnicity is Annette Badland? She is of White ethnicity with Scottish and English descent; her religious affiliation is not publicly known. Annette Badland began her acting career in the 1970s with stage work and small television roles, including appearances in Z-Cars and Play for Today.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Annette Badland Biography: Husband, Ethnicity, Awards ...",
+        "url": "https://www.thecityceleb.com/biography/celebrity/actress/annette-badland-biography-husband-ethnicity-awards-children-movies-age-religion/",
+        "snippet": "Annette Badland has been in a long-term partnership with David Hatton since the late 20th century; the couple is unmarried and has no children. Badland has spoken publicly about growing up as an only child and her close relationship with her mother.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "13",
+    "claim": "Shane Black was born in 1961.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Shane Black - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shane_Black",
+        "snippet": "Shane Black (born December 16, 1961) is an American screenwriter, film director, and actor, known for his distinctive style of action and action comedy films. Early life and education · Career · Style · Filmography",
+        "source_reliability": 70
+      },
+      {
+        "title": "happy 64th birthday to Shane Black Shane Black, born ...",
+        "url": "https://www.facebook.com/100090700182356/posts/happy-64th-birthday-to-shane-blackshane-black-born-december-16-1961-in-pittsburg/806826202350712/",
+        "snippet": "15 Dec 2025 · Shane Black, born December 16, 1961, in Pittsburgh, Pennsylvania, is an American screenwriter, director, and occasional actor.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Films written by Shane Black - Letterboxd",
+        "url": "https://letterboxd.com/writer/shane-black/",
+        "snippet": "Shane Black (born December 16, 1961) is an American filmmaker and actor who has written such films as Lethal Weapon, The Monster Squad, The Last Boy Scout,",
+        "source_reliability": 60
+      },
+      {
+        "title": "Shane Black - IMDb",
+        "url": "https://www.imdb.com/name/nm0000948/",
+        "snippet": "Born December 16, 1961 Pittsburgh, Pennsylvania, USA Parents Patricia Ann James Relatives Terry Black(Sibling)",
+        "source_reliability": 60
+      },
+      {
+        "title": "Shane Black: Movies, TV, and Bio - Prime Video",
+        "url": "https://www.primevideo.com/person/Shane-Black/amzn1.dv.gti.8d85f093-8641-4a0d-a45c-2953dec914e3/",
+        "snippet": "Black Actor, Director, Writer Born December 16, 1961 in Pittsburgh, Pennsylvania, USA Considered one of the pioneer screenwriters of the action genre, Black ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "36",
+    "claim": "David Packouz refused to be an entrepreneur.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "David Packouz - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/David_Packouz",
+        "snippet": "Packouz himself has a cameo role in the film as a guitarist and singer at an elderly home. Packouz later co-founded War Dogs Academy, an online school that teaches how to start a government contracting business.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Efraim Diveroli - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Efraim_Diveroli",
+        "snippet": "Efraim Diveroli, at the age of 21, and his partner, David Packouz, at 25, gained notoriety for their involvement in the high-profile ammunition deal. Subsequently, Diveroli was sentenced to four years in federal prison.",
+        "source_reliability": 70
+      },
+      {
+        "title": "EXCLUSIVE: David Packouz on Partner Efraim Diveroli ... - VladTV",
+        "url": "https://www.vladtv.com/article/311298/david-packouz-on-partner-efraim-diveroli-refusing-to-pay-him-his-share-of",
+        "snippet": "Jun 2, 2025 · In an eye-opening interview, David Packouz shed light on the behind-the-scenes turbulence that followed when his partner, Efraim Diveroli, refused to pay a vendor, leading to their exposure to the FBI.",
+        "source_reliability": 60
+      },
+      {
+        "title": "David Packouz - Alchetron, The Free Social Encyclopedia",
+        "url": "https://alchetron.com/David-Packouz",
+        "snippet": "Apr 25, 2026 · Packouz was sentenced to seven months house arrest for Conspiracy to Defraud the United States. He is the subject of the 2016 Todd Phillips drama-comedy film War Dogs, in which he is portrayed by Miles Teller.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Episode: David Packouz - Entrepreneur | The Real 'War Dogs ...",
+        "url": "https://dexa.ai/successstory/d/3a005102-af7c-11ef-ab45-6b9a063c5dfa",
+        "snippet": "David Packouz explores the intricate dynamics of family-run businesses and the impact of trust and betrayal in his career. He shares lessons from his experiences in the arms trade and his efforts to educate others through War Dogs Academy.",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "43",
+    "claim": "Anne Rice was born in New Jersey.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Anne Rice | Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/people/literature-and-arts/american-literature-biographies/anne-rice",
+        "snippet": "Anne Rice was born in New Orleans, Louisiana, on October 4, 1941. She was originally named Howard Allen O'Brien",
+        "source_reliability": 60
+      },
+      {
+        "title": "Anne Rice | Biography, Books, Movies, Interview with the ...",
+        "url": "https://www.britannica.com/biography/Anne-Rice",
+        "snippet": "Anne Rice (born October 4, 1941, New Orleans, Louisiana, U.S.—died December 11, 2021, Rancho Mirage, California) was an American author known for her novels ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "Anne Rice was an author of gothic fiction, and erotic lit. She ...",
+        "url": "https://www.facebook.com/happymagtv/posts/anne-rice-was-an-author-of-gothic-fiction-and-erotic-lit-she-was-best-known-for-/471904451638453/",
+        "snippet": "3 Oct 2022 · She was born in New Orleans on October 4 1941. She died at age 80 and wrote more than 30 gothic novels, most notably The Vampire Chronicles ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Anne Rice Biography - JRank Articles - Brief Biographies - JRank",
+        "url": "https://biography.jrank.org/pages/4685/Rice-Anne.html",
+        "snippet": "Nationality: American. Born: Howard Allen O'Brien, New Orleans, Louisiana, 1941; name changed to Anne c.1947. Education: Texas Women's University, Denton ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Anne S. Rice Obituary | Nazare Memorial Home, Inc. | 1931",
+        "url": "https://nazarememorialhome.com/tribute/details/3547",
+        "snippet": "Rice was born and raised in Jersey City and was a resident of Lyndhurst for over 50 years. She worked for U.S. Steel in NYC, NY for 29 years, retiring in ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "33",
+    "claim": "Hot Right Now is mistakenly attributed to DJ Fresh.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Hot Right Now - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hot_Right_Now",
+        "snippet": "\" Hot Right Now \" is a single by English drum and bass producer DJ Fresh featuring English singer Rita Ora, released on 13 February 2012 as the second single from his third studio album, Nextlevelism (2012), before later being included as a bonus track on Ora's debut studio album Ora (2012).",
+        "source_reliability": 70
+      },
+      {
+        "title": "Hot Right Now by DJ Fresh - Songfacts",
+        "url": "https://www.songfacts.com/facts/dj-fresh/hot-right-now",
+        "snippet": "British-based drum & bass producer DJ Fresh (real name Daniel Stein) teamed up with the Roc Nation signed singer-songwriter Rita Ora for this song, which was released on February 12, 2012. Born in Pristina, then in Yugoslavia (now Kosovo), Rita Ora moved with her parents to London the same year of her birth and joined a choir at the age of six. During her early teens she attended the Sylvia ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "DJ Fresh ft. Rita Ora - Hot Right Now [Official Video]",
+        "url": "https://www.youtube.com/watch?v=N7OPZOBJZyI",
+        "snippet": "The official music video for 'Hot Right Now' by DJ Fresh ft. Rita Ora. DOWNLOAD 'Hot Right Now' here: http://po.st/aJlJeu SUBSCRIBE for more from DJ Fresh:...",
+        "source_reliability": 60
+      },
+      {
+        "title": "DJ Fresh - Hot Right Now | Beyond The Lyrics | Story of Song",
+        "url": "https://storyofsong.com/story/hot-right-now/",
+        "snippet": "Chart Rankings 'Hot Right Now' achieved success in the UK more than any country. It topped the UK Singles Chart and the UK Dance Charts. It was certified Gold by the British Phonographic Industry (BPI). The single didn't reach the US charts, but reached the top 10 charts in the Czech Republic, Scotland, and Slovakia. In Germany the song peaked at number 28 and in Poland it reached number 22.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Hot Right Now - grokipedia.com",
+        "url": "https://grokipedia.com/page/Hot_Right_Now",
+        "snippet": "\"Hot Right Now\" is a drum and bass single by English producer DJ Fresh, featuring vocals from British singer Rita Ora, released on 12 February 2012 as the second single from his third studio album Nextlevelism. The track, produced by DJ Fresh (real name Daniel Stein), blends high-energy electronic beats with Ora's charismatic, high-key vocals, delivering light-hearted lyrics about social ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "54",
+    "claim": "A View to a Kill is an action movie.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "A View to a Kill - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/A_View_to_a_Kill",
+        "snippet": "A View to a Kill is a 1985 spy film, the fourteenth in the James Bond series and the seventh and final appearance of Roger Moore as the fictional MI6 agent ... Plot · Production · Music · Release and reception",
+        "source_reliability": 70
+      },
+      {
+        "title": "A View To A Kill - Vastly Underrated or Fairly Rated?",
+        "url": "https://www.reddit.com/r/JamesBond/comments/1qvbn1u/a_view_to_a_kill_vastly_underrated_or_fairly_rated/",
+        "snippet": "4 Feb 2026 · Top tier action, solid villain, great Bond girl and overall a very enjoyable bond film … has plenty of action set peices, A View To A Kill Appreciation Post : r/JamesBond - Reddit A View To A Kill (What does this film do better than any other in ... More results from www.reddit.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "A View to a Kill - Apple TV",
+        "url": "https://tv.apple.com/us/movie/a-view-to-a-kill/umc.cmc.5kepztislibm0j74eufe7mxuq",
+        "snippet": "A View to a Kill Movie · Action · Thriller Secret agent 007 must stop a megalomaniacal technology mogul from destroying Silicon Valley in this last appearance ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "In Defense of “A View to a Kill” - Pan and Slam",
+        "url": "https://panandslam.com/2014/02/07/in-defense-of-a-view-to-a-kill/",
+        "snippet": "7 Feb 2014 · A View to a Kill is a very solid and entertaining James Bond adventure. With great action sequences throughout, a fitting farewell to two actors",
+        "source_reliability": 60
+      },
+      {
+        "title": "A View To A Kill is the best James Bond movie. - Facebook",
+        "url": "https://www.facebook.com/sean.clay.12/posts/a-view-to-a-kill-is-the-best-james-bond-movie/38653939960863829/",
+        "snippet": "1 Sept 2026 · 1985 A View to a Kill John Glen's spy action film The 14th James Bond film. And Roger Moore's 7th time playing 007 007 is back. one of the ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "14",
+    "claim": "Jennifer Lopez made a single.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Jennifer Lopez - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jennifer_Lopez",
+        "snippet": "In July 2016, Lopez released a single entitled \"Love Make the World Go Round\", a collaboration with Lin-Manuel Miranda, which benefits victims of the ... Early life and education · Career · Other activities · Artistry",
+        "source_reliability": 70
+      },
+      {
+        "title": "If You Had My Love - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/If_You_Had_My_Love",
+        "snippet": "\"If You Had My Love\" is the debut single by American actress and singer Jennifer Lopez from her first studio album, On the 6 (1999). Released May 4, 1999 Background · Critical reception · Music video · Impact",
+        "source_reliability": 70
+      },
+      {
+        "title": "Jennifer Lopez - Apple Music",
+        "url": "https://music.apple.com/in/artist/jennifer-lopez/463009",
+        "snippet": "Lopez released her first single, 1999's dance-pop banger “If You Had My Love”. Lopez welcomed funkier grooves and declared her hometown pride with 2002's",
+        "source_reliability": 60
+      },
+      {
+        "title": "In The Morning · By Jennifer Lopez (Official Music Video)",
+        "url": "https://www.facebook.com/jenniferlopez/posts/in-the-morning-by-jennifer-lopez-official-music-video/10159031786795768/",
+        "snippet": "22 Jan 2021 · Jennifer Lopez earned her first #1 hit single with \"If You Had My Love\". Released on May 4, 1999, the song served as Jennifer Lopez's debut ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Jennifer Lopez Says She Regrets Not Embracing Single Life ...",
+        "url": "https://people.com/jennifer-lopez-says-she-regrets-not-embracing-single-life-sooner-11985293",
+        "snippet": "27 May 2026 · During a Wednesday, May 27, appearance on Jimmy Kimmel Live!, Jennifer Lopez shared that she's embracing single life after her 2024 divorce ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "47",
+    "claim": "Don Bradman retired from soccer.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Don Bradman - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Don_Bradman",
+        "snippet": "Don Bradman - Wikipedia",
+        "source_reliability": 70
+      },
+      {
+        "title": "Controversies surrounding Don Bradman - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Controversies_surrounding_Don_Bradman",
+        "snippet": "He described Bradman's usual routine after play - Bradman would retire to his hotel room, write and listen to a phonograph. After scoring a world record of 334 runs in the Test match at Leeds, Bradman was given a cheque for £1000 - £75,000 today - by an admiring expatriate Australian businessman.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Don Bradman | Stats, Career, Records, Age, Centuries, Highest Score ...",
+        "url": "https://www.britannica.com/biography/Don-Bradman",
+        "snippet": "Don Bradman is a legendary Australian cricketer. He scored 6,996 runs for Australia in international Test cricket and had a remarkable batting average of 99.94. Bradman was arguably the best batter of the 20th century.",
+        "source_reliability": 90
+      },
+      {
+        "title": "Donald Bradman Profile - Cricket Player Australia | Stats, Records, Video",
+        "url": "https://www.cricinfo.com/cricketers/donald-bradman-4188",
+        "snippet": "Sir Donald Bradman of Australia was, beyond any argument, the greatest batsman who ever lived and the greatest cricketer of the 20th century. Only WG Grace, in the formative years of the game, even remotely matched his status as a player. And The Don lived on into the 21st century, more than half a century after he retired.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Donald Bradman - EPFL",
+        "url": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/d/Donald_Bradman.htm",
+        "snippet": "Donald Bradman 2007 Schools Wikipedia Selection. Related subjects: Sports and games people ... Sir Donald George Bradman, AC ( August 27, 1908 — February 25, 2001), often called The Don, was an Australian cricketer who is universally regarded as the greatest batsman of all time, and is one of Australia's most popular sporting heroes.",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "58",
+    "claim": "Men in Black II stars eight children.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Men in Black II - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Men_in_Black_II",
+        "snippet": "it stars Tommy Lee Jones and Will Smith, with Lara Flynn Boyle, Johnny Knoxville, Rosario Dawson, Tony Shalhoub, and Rip Torn in supporting roles. Cast · Production · Release · Reception",
+        "source_reliability": 70
+      },
+      {
+        "title": "Men in Black (film series) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Men_in_Black_(film_series)",
+        "snippet": "Men in Black (also known as MIB) is a series of American science fiction action comedy films directed by Barry Sonnenfeld, and based on the Malibu / Marvel ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Men in Black II",
+        "url": "https://meninblack.fandom.com/wiki/Men_in_Black_II",
+        "snippet": "Men in Black II ; Producer. Laurie MacDonald & Walter F. Parkes ; Starring. Tommy Lee Jones · Will Smith · Lara Flynn Boyle · Johnny Knoxville · Rosario Dawson",
+        "source_reliability": 60
+      },
+      {
+        "title": "Men In Black II [2002] [PG-13] - 2.5.4 | Parents' Guide & Review",
+        "url": "https://kids-in-mind.com/m/meninblackii.htm",
+        "snippet": "Two men go into an adult book/video store (not much is visible). There are sexual references and innuendo: A dog/alien asks several people \"how they hangin'?\", ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "BIG Reveal of the LEGENDARY Film Men in Black! - Facebook",
+        "url": "https://www.facebook.com/DavidLetterman/videos/big-reveal-of-the-legendary-film-men-in-black-davidletterman-willsmith/2016974215627121/",
+        "snippet": "1 Jul 2026 · More videos you may like. Men in Black II ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "3",
+    "claim": "The Cretaceous ended.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Cretaceous - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cretaceous",
+        "snippet": "The end of the Cretaceous is defined by the abrupt Cretaceous-Paleogene boundary (K-Pg boundary), a geologic signature associated with the mass extinction that lies between the Mesozoic and Cenozoic Eras.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Cretaceous-Paleogene extinction event - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cretaceous–Paleogene_extinction_event",
+        "snippet": "The Cretaceous-Paleogene (K-Pg) extinction event, [a] formerly known as the Cretaceous-Tertiary (K-T) extinction event, [b] was a major mass extinction of three-quarters (75%) of the plant and animal species on Earth [2][3][4] which occurred around 66 million years ago. The event caused the extinction of all the non-avian dinosaurs and most other tetrapods weighing more than 25 kg (55 ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Cretaceous Period | Definition, Climate, Dinosaurs, & Map - Britannica",
+        "url": "https://www.britannica.com/science/Cretaceous-Period",
+        "snippet": "Cretaceous Period, in geologic time, the last of the three periods of the Mesozoic Era. It began 145 million years ago and ended 66 million years ago and featured the extinction of the dinosaurs at the end of the period.",
+        "source_reliability": 90
+      },
+      {
+        "title": "The Cretaceous Period",
+        "url": "https://ucmp.berkeley.edu/mesozoic/cretaceous/cretaceous.php",
+        "snippet": "The Cretaceous-Tertiary extinction The most famous of all mass extinctions marks the end of the Cretaceous Period, about 65 million years ago. As everyone knows, this was the great extinction in which the dinosaurs died out, except for the birds, of course.",
+        "source_reliability": 90
+      },
+      {
+        "title": "End of the Cretaceous - lyellcollection.org",
+        "url": "https://www.lyellcollection.org/doi/pdf/10.1144/SP544-2023-176",
+        "snippet": "Abstract: The Cretaceous ended when the Chicxulub asteroid struck the Yucatán platform, and all deposits and landforms generated are earliest Paleocene in age. Drill core from the Cretaceous-Paleogene (K-Pg) boundary sequence deposited on top of the Chicxulub impact structure's peak ring paired with geophysical data within the crater and other well-preserved marine and terrestrial K-Pg ...",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "28",
+    "claim": "Brad Wilk helped co-found Rage in 1962.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Lock Up (American band) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lock_Up_(American_band)",
+        "snippet": "drummer Brad Wilk who unsuccessfully auditioned for Lock Up. This line-up went on to form Rage Against the Machine.",
+        "source_reliability": 70
+      },
+      {
+        "title": "HAPPY BIRTHDAY !!!! Brad Wilk (born September 5 ... - Facebook",
+        "url": "https://www.facebook.com/groups/273422636880338/posts/1100237794198814/",
+        "snippet": "5 Sept 2022 · Wilk started his career as a drummer for Greta in 1990, and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991. Following ... Who's your favorite 90s hard rock drummer, Sean Kinney or ... Brad Wilk's music career and biography - Facebook More results from www.facebook.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "Tim Commerford Left Confused and in the Dark Over Rage ...",
+        "url": "https://americansongwriter.com/tim-commerford-left-confused-and-in-the-dark-over-rage-against-the-machines-future/",
+        "snippet": "23 Feb 2024 · And with drummer Brad Wilk's recent statement about never playing live again, fans and even bassist Tim Commerford wonder what the future looks ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "[PDF] Rage From Within the Machine: Protest Music, Social Justice ...",
+        "url": "https://dsc.duq.edu/cgi/viewcontent.cgi",
+        "snippet": "Tim Commerford is the bassist, while. Brad Wilk is the drummer. The band broke up in 2000, and the instrumentalists formed a band with singer Chris Cornell ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "[PDF] Search-in-the-Chain: Interactively Enhancing Large Language ...",
+        "url": "https://openreview.net/pdf/4d52698aebfd7cd58a98f5e8167f9681760e543c.pdf",
+        "snippet": "Brad Wilk did co-found Rage [1], but not in 1962 [2]. So the final answer is REFUTES.",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "38",
+    "claim": "Tenacious D started in 1997.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Tenacious D - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tenacious_D",
+        "snippet": "Tenacious D recorded their songs \"Tribute\", \"Kyle Quit the Band\", \"Krishna\" and \"History\" and released them in a demo tape called Tenacious Demo in the late 1990s with Andrew Gross.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tenacious D (TV series) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tenacious_D_(TV_series)",
+        "snippet": "Tenacious D is a limited television series that ran on HBO from 1997 to 2000. It features the fictional accounts of the real-life comedy rock duo of the same name, which is composed of members Jack Black and Kyle Gass.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Tenacious D (TV Series 1997–2000) - IMDbTenacious D (TV series) - WikipediaTenacious D - WikiwandTenacious D (TV series) | Tenacious D Wiki | FandomA Timeline of Tenacious D: Thirty Years of TenacityTenacious D (TV series) - Wikiwand",
+        "url": "https://www.imdb.com/title/tt0180241/",
+        "snippet": "Tenacious D: Created by Jack Black, David Cross, Kyle Gass, Bob Odenkirk. With Jack Black, Kyle Gass, Paul F. Tompkins, Kirk Ward. Tenacious D is a two-piece musical act: their many struggles as friends, and as a band of two very absurd individuals. Tenacious D is a limited television series that ran on HBO from 1997 to 2000. It features the fictional accounts of the real-life comedy rock duo of the same name, which is composed of members Jack Black and Kyle Gass. Tenacious D is an American comedy rock band formed in Los Angeles in 1994 by Jack Black and Kyle Gass. Tenacious D is a series of television episodes, released between 1997 and 2000, by HBO Original Programming. The show is also known as \"Tenacious D: The Greatest Band on Earth\", and \"The Adventures of Tenacious D\". Other than their 1996 cameo appearance in Bio-Dome, the television series was the first real visual representation. Jul 19, 2024 · This year marks 30 years since Tenacious D first formed — and with uncertainty surrounding the future of the band, Tone Deaf has compiled a timeline of the rise (and fall) of “The D”, as they are affectionately known. Tenacious D is a limited television series that ran on HBO from 1997 to 2000. It features the fictional accounts of the real-life comedy rock duo of the same name, which is composed of members Jack Black and Kyle Gass.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Tenacious D - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Tenacious_D",
+        "snippet": "Tenacious D is an American comedy rock band formed in Los Angeles in 1994 by Jack Black and Kyle Gass.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Tenacious D (TV series) | Tenacious D Wiki | Fandom",
+        "url": "https://tenaciousd.fandom.com/wiki/Tenacious_D_(TV_series)",
+        "snippet": "Tenacious D is a series of television episodes, released between 1997 and 2000, by HBO Original Programming. The show is also known as \"Tenacious D: The Greatest Band on Earth\", and \"The Adventures of Tenacious D\". Other than their 1996 cameo appearance in Bio-Dome, the television series was the first real visual representation.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "6",
+    "claim": "Edgar Wright is a person.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Edgar Wright - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Edgar_Wright",
+        "snippet": "Edgar Howard Wright (born 18 April 1974) is an English filmmaker. He is known for his fast-paced and kinetic, satirical genre films, Early life and education · Career · Personal life",
+        "source_reliability": 70
+      },
+      {
+        "title": "Edgar Wright - IMDb",
+        "url": "https://www.imdb.com/name/nm0942367/",
+        "snippet": "Edgar Howard Wright (born 18 April 1974) is an English director, screenwriter, producer, and actor. He is best known for his comedic Three Flavours Cornetto ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Edgar Wright: Movies, TV, and Bio - Prime Video",
+        "url": "https://www.primevideo.com/person/Edgar-Wright/amzn1.dv.gti.27c99b70-c3c1-45ac-914a-16fed8783805/",
+        "snippet": "Edgar Howard Wright (born 18 April 1974) is an English director, screenwriter, producer, and actor. He is best known for his comedic Three Flavours Cornetto ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "An Interview with Edgar Wright - Bournemouth Film School",
+        "url": "https://bournemouthfilmschool.medium.com/an-interview-with-edgar-wright-e445551e4ff0",
+        "snippet": "9 Oct 2018 · Wright was born up the road in Poole hospital and grew up in Swanage until the age of seven, when his family moved to Wells in Somerset. 'My ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "IFH 513: How I Write and Direct My Films with Edgar Wright",
+        "url": "https://indiefilmhustle.com/edgar-wright/",
+        "snippet": "28 Oct 2021 · Edgar has been on the scene making and writing satirical genre films, while also acting for almost thirty years. Edgar is the ultimate creator.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "35",
+    "claim": "Harold Macmillan was born on February 20, 1894.",
+    "ground_truth": "CONTRADICTED",
+    "evidence": [
+      {
+        "title": "Harold Macmillan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Harold_Macmillan",
+        "snippet": "Harold Macmillan, 1st Earl of Stockton (10 February 1894 – 29 December 1986) was Prime Minister of the United Kingdom and Leader of the Conservative Party from ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Harold Macmillan | UK Prime Minister, Conservative Leader",
+        "url": "https://www.britannica.com/biography/Harold-Macmillan",
+        "snippet": "18 Jul 2026 · Harold Macmillan (born Feb. 10, 1894, London, Eng.—died Dec. 29, 1986, Birch Grove, Sussex) was a British politician who was prime minister ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "Harold Macmillan 1st Earl Of Stockton | Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/harold-macmillan-1st-earl-stockton",
+        "snippet": "27 Jun 2018 · Born February 10, 1894. London, England Died December 29, 1986. Birch Grove, Sussex, England. British prime minister. H arold Macmillan ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "10th February 1894, The birth of Harold Macmillan, captain and ...",
+        "url": "https://www.facebook.com/100064533826405/posts/10th-february-1894-the-birth-of-harold-macmillan-captain-and-politician-prime-mi/1343880357773079/",
+        "snippet": "9 Feb 2026 · On this day in 1894 Harold Macmillan was born on Cadogan Place in Belgravia. Badly injured in WWI, he entered politics, becoming Conservative ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Harold MacMillan - Yousuf Karsh",
+        "url": "https://karsh.org/harold-macmillan/",
+        "snippet": "9 Feb 2020 · Harold Macmillan was born on this day, February 10, in 1894. He was Prime Minister of the UK from 1957 to 1963.",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "52",
+    "claim": "Private Lives is a three act play from 1930.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Private Lives - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Private_Lives",
+        "snippet": "Private Lives is a 1930 comedy of manners in three acts by the English playwright Noël Coward. It concerns a divorced couple. Premiere Date 18 August 1930;",
+        "source_reliability": 70
+      },
+      {
+        "title": "Private Lives | Noel Coward, Comedy, 1930s - Britannica",
+        "url": "https://www.britannica.com/topic/Private-Lives",
+        "snippet": "Private Lives, comedy in three acts by Noël Coward, published and produced in 1930. This cynical comment on love and marriage is one of Coward's most ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "Finale of \"Private Lives\" by Noel Coward - ThoughtCo",
+        "url": "https://www.thoughtco.com/finale-of-private-lives-overview-2713424",
+        "snippet": "17 Mar 2017 · The play, written in 1930, details the humorous encounter between two ex-spouses who decide to run away together and give their relationship ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "All Editions of Private Lives - Noël Coward - Goodreads",
+        "url": "https://www.goodreads.com/work/editions/1120762-private-lives",
+        "snippet": "All Editions of Private Lives. First published 1930. Private Lives by Noël Coward. Private Lives: An Intimate Comedy in Three Acts.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Private Lives | Concord Theatricals",
+        "url": "https://www.concordtheatricals.com/p/2816/private-lives",
+        "snippet": "Private Lives premiered on August 18, 1930 at the King's Theatre in Edinburgh, directed by playwright Noël Coward and starring Coward as Elyot, Gertrude ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "44",
+    "claim": "Happiness in Slavery is a gospel song by Nine Inch Nails.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "Nine Inch Nails - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nine_Inch_Nails",
+        "snippet": "Nine Inch Nails has sold over 20 million records \"Happiness in Slavery\" in 1996. Nine Inch Nails has \"Happiness in Slavery\" in 1995, Nominated 1995 \"Happiness ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Nine Inch Nails' \"Happiness in Slavery\" song lyrics - Facebook",
+        "url": "https://www.facebook.com/groups/WaxTraxRecords1980/posts/2537304156784833/",
+        "snippet": "23 Jul 2026 · Nine Inch Nails' \"Happiness in Slavery\" song lyrics … you can find happiness in slavery. It's a lot easier when you can ignore pain, because ... Interpreting Happiness in Slavery by Nine Inch Nails Nine Inch Nails - Happiness In Slavery [Flaccid Edit] More results from www.facebook.com",
+        "source_reliability": 60
+      },
+      {
+        "title": "Nine Inch Nails - Happiness In Slavery [Industrial] : r/Music",
+        "url": "https://www.reddit.com/r/Music/comments/1c9fq55/nine_inch_nails_happiness_in_slavery_industrial/",
+        "snippet": "21 Apr 2024 · Nine Inch Nails - Happiness In Slavery [Industrial]. music.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Best of Nine Inch Nails - playlist by Christian Cipriani | Spotify",
+        "url": "https://open.spotify.com/playlist/1pg8q4reQ2ZhzyvgqGSMuM",
+        "snippet": "Happiness In Slavery · Nine Inch Nails · Reptile · Nine Inch Nails · Wish · Nine Inch Nails · The Line Begins To Blur · Nine Inch Nails · In This Twilight.",
+        "source_reliability": 60
+      },
+      {
+        "title": "30 Best Nine Inch Nails Songs - Blog | Feed.fm",
+        "url": "https://blog.feed.fm/30-best-nine-inch-nails-songs",
+        "snippet": "31 Jul 2018 · “Happiness in Slavery,” Broken This song paints a graphic picture of bondage, with Reznor screaming many of the lyrics over aggressive, ...",
+        "source_reliability": 50
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "7",
+    "claim": "Ann Richards was professionally involved in politics.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Ann Richards: Trailblazing Governor of Texas",
+        "url": "https://www.tshaonline.org/handbook/entries/richards-dorothy-ann-willis-ann",
+        "snippet": "Ann became involved in local politics and successfully managed the legislative campaigns of both Sarah Weddington (1972) and Wilhelmina Delco (1974).",
+        "source_reliability": 70
+      },
+      {
+        "title": "This Women's History Month, we honor the legacy of Ann ...",
+        "url": "https://www.facebook.com/CongressmanMarcVeasey/posts/this-womens-history-month-we-honor-the-legacy-of-ann-richards-a-couragous-leader/1485020339685063/",
+        "snippet": "27 Mar 2026 · Richards was a trailblazer, a strong leader, and a champion of women's health issues. She entered politics in 1976, winning election as a Travis ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Ann Richards | Biography | Research Starters - EBSCO",
+        "url": "https://www.ebsco.com/research-starters/biography/ann-richards",
+        "snippet": "Richards first became involved in Texas politics as a graduate student at the University of Texas, Austin. She and her husband became active in the university's ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "In Memoriam: Ann Richards, 1933–2006",
+        "url": "https://briscoecenter.org/about/news/in-memoriam-ann-richards-1933-2006/",
+        "snippet": "14 Sept 2006 · She became increasingly involved in local politics and managed the campaign of Wilhelmina Delco, who became the first African American to ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "Ann Richards Archives - - Not Even Past",
+        "url": "https://notevenpast.org/tag/ann-richards/",
+        "snippet": "Richards had been involved on the outside of politics, doing the “women's jobs” of social planner and campaign volunteer, winning election in her first race.",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "57",
+    "claim": "Billboard Dad is a genre of music.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "OUR DAD HERE - Trivia Mafia",
+        "url": "https://www.triviamafia.com/fridayknowitall/billboarddad",
+        "snippet": "13 Sept 2024 · Billboard Dad's love interest is played by Jessica Tuck, mom in the “High School Musical” franchise.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Billboard Dad (Video 1998) - Soundtracks - IMDb",
+        "url": "https://www.imdb.com/title/tt0167049/soundtrack/",
+        "snippet": "Soundtracks Billboard Dad Edit Imagination Written by David Michael Frank and Todd Smallwood Performed by Todd Smallwood",
+        "source_reliability": 60
+      },
+      {
+        "title": "Billboard Dad (Film) - TV Tropes",
+        "url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/BillboardDad",
+        "snippet": "Billboard Dad is a 1998 Direct-to-Video comedy starring Mary-Kate and Ashley Olsen. The film revolves around twin sisters Emily and Teresea \"Tess\" Tyler.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Review | Billboard Dad | Blu-ray Authority",
+        "url": "https://blurayauthority.com/standard-dvd/billboard-dad/",
+        "snippet": "28 Jan 2012 · The music has enough life to satisfy, while the various sound effects are well presented, though without much punch, of course. The main element ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Meghan Patrick's song Iron Man on Billboard's Father's Day list",
+        "url": "https://www.facebook.com/MegPatrickMusic/posts/absolutely-beside-myself-right-now-billboard-has-iron-man-sitting-at-9-alongside/1313120463502955/",
+        "snippet": "14 Jun 2025 · A Dad Tribute – Billboard Tunes to help celebrate dad and grandpa on their special day. George Strait plays guitar as he performs onstage at ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "9",
+    "claim": "Aristotle spent time in Athens.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Aristotle - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aristotle",
+        "snippet": "At around eighteen years old, he joined Plato's Academy in Athens and remained there until the age of thirty seven ( c. 347 BC).",
+        "source_reliability": 70
+      },
+      {
+        "title": "Aristotle",
+        "url": "https://ucmp.berkeley.edu/history/aristotle.html",
+        "snippet": "He was trained first in medicine, and then in 367 he was sent to Athens to study philosophy with Plato. He stayed at Plato's Academy until about 347 -- the ...",
+        "source_reliability": 90
+      },
+      {
+        "title": "Aristotle (384–322 bc): philosopher and scientist of ancient ...",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2672651/",
+        "snippet": "He then left Athens to spend the next five years in Asia Minor at the court of Hermeas, ruler of Atarneus in Mysia, whose niece and adopted daughter, Pythias, ...",
+        "source_reliability": 95
+      },
+      {
+        "title": "Walking in the Footsteps of the Philosophers in Athens",
+        "url": "https://europeupclose.com/article/walking-in-the-footsteps-of-the-philosophers-in-athens/",
+        "snippet": "Aristotle was head of his school until 323 BC when the Athenians revolted against the Macedonian occupation of their city. Fearing he would meet the same end as ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "How well known where Socrates, Plato and Aristotle at their ...",
+        "url": "https://www.reddit.com/r/AskHistorians/comments/1oaip8/how_well_known_where_socrates_plato_and_aristotle/",
+        "snippet": "12 Oct 2013 · He was fairly well known in Athens, Aristophanes wrote his comedy \" Clouds \" which mocked Socrates, He hung out at the agora and in other ...",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "15",
+    "claim": "Sancho Panza is a character in Don Quixote.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Sancho Panza - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sancho_Panza",
+        "snippet": "Sancho Panza (/ ˈpænzə /; Spanish: [ˈsantʃo ˈpanθa]) is a fictional character in the novel Don Quixote written by Spanish author Miguel de Cervantes Saavedra in 1605.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Sancho Panza Character Analysis in Don Quixote | LitCharts",
+        "url": "https://www.litcharts.com/lit/don-quixote/characters/sancho-panza",
+        "snippet": "Sancho is a peasant who lives in Quixote ’s village, and he is Quixote’s faithful squire. Sancho’s transformation over the course of the two parts of the history is an astonishing one. In the beginning, he is a coarse, greedy, gluttonous, big-bellied peasant – or, at least, that is his part to play.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Sancho Panza Character Analysis in Don Quixote | SparkNotes",
+        "url": "https://www.sparknotes.com/lit/donquixote/character/sancho-panza/",
+        "snippet": "Living in both Don Quixote’s world and the world of his contemporaries, Sancho is able to create his own niche between them. He embodies the good and the bad aspects of both the current era",
+        "source_reliability": 60
+      },
+      {
+        "title": "Don Quixote Character Analysis | LitCharts",
+        "url": "https://www.litcharts.com/lit/don-quixote/characters",
+        "snippet": "Sancho is a peasant who lives in Quixote ’s village, and he is Quixote’s faithful squire. Sancho’s transformation over the course of the two parts of the history is an astonishing one.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Sancho Panza in Don Quixote — Character Analysis",
+        "url": "https://storgy.com/works/don-quixote/characters/sancho-panza/",
+        "snippet": "Sancho Panza is Don Quixote's practical and down-to-earth squire, providing essential comic relief throughout the novel. A poor farmer from La Mancha, he is drawn into his master's quest for knighthood by the enticing promise of governing an island.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "16",
+    "claim": "Brazzers is a company.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Brazzers - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brazzers",
+        "snippet": "Brazzers is a Canadian pornographic video production and distributing company headquartered in Montreal, Quebec, and legal domicile in Nicosia, Cyprus.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Brazzers - Simple English Wikipedia, the free encyclopedia",
+        "url": "https://simple.wikipedia.org/wiki/Brazzers",
+        "snippet": "Brazzers is a Canadian pornographic production company. It is headquartered in Montreal, Quebec, Canada and has legal residence in Limassol, Cyprus.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Brazzers - 2026 Company Profile & Competitors - Tracxn",
+        "url": "https://tracxn.com/d/companies/brazzers/__YY2P8sDJyafvNvMl85zGLjV8iCjK92ETfYIQpuJEcBA",
+        "snippet": "8 Aug 2026 · Brazzers is a deadpooled company based in India, founded in 1929. It operates as a Provider of an online pharmacy for men's health.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Brazzers Company Profile | Management and Employees List",
+        "url": "https://www.datanyze.com/companies/brazzers/353566540",
+        "snippet": "Brazzers is a leading adult entertainment website that specializes in premium HD pornographic content featuring well-known pornstars. Revenue $3.7 M Employees ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Brazzers - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q903343",
+        "snippet": "pornographic production company based in Montreal, Quebec, Canada. pornography industry inception 2004. Canada owned by Aylo stated in Trustpilot",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "18",
+    "claim": "Ernest Medina participated in the My Lai Massacre.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Ernest Medina - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ernest_Medina",
+        "snippet": "Ernest Lou Medina (August 27, 1936 – May 8, 2018) was a captain of infantry in the United States Army. He served during the Vietnam War. Background · Court-martial · Cultural references",
+        "source_reliability": 70
+      },
+      {
+        "title": "Meet the Participants | American Experience | Official Site - PBS",
+        "url": "https://www.pbs.org/wgbh/americanexperience/features/my-lai-selected-men-involved-my-lai/",
+        "snippet": "The story of the My Lai Massacre, its cover up, and the subsequent investigation involves hundreds of people.",
+        "source_reliability": 70
+      },
+      {
+        "title": "On March 10, 1970, the Army charged Captain Ernest L ...",
+        "url": "https://www.facebook.com/AmericanExperiencePBS/posts/on-march-10-1970-the-army-charged-captain-ernest-l-medina-with-assault-with-a-de/1036891528486461/",
+        "snippet": "10 Mar 2025 · On March 10, 1970, the Army charged Captain Ernest L. Medina with assault with a deadly weapon and premeditated murder for his role in the ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Captain Ernest Medina is acquitted of all My Lai Massacre ...",
+        "url": "https://www.history.com/this-day-in-history/september-22/medina-is-acquitted-of-all-charges",
+        "snippet": "His unit, Charlie Company, 1st Battalion, 20th Infantry, 11th Infantry Brigade (Light) of the 23rd (Americal) Division, was charged with the murder of over 200 ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Capt. Medina Testifies at Calley's Court Martial | Explore",
+        "url": "https://www.loc.gov/exhibitions/drawing-justice-courtroom-illustrations/about-this-exhibition/federal-and-special-courts/capt-medina-testifies-at-calleys-court-martial/",
+        "snippet": "William L. Calley, Jr., for the massacre of civilians at My Lai in Vietnam. Medina oversaw Company C, First Battalion, 20th Infantry of the 11th Brigade ...",
+        "source_reliability": 95
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "48",
+    "claim": "L.A. Reid has served as the CEO of Arista Records for four years.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "L.A. Reid - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/L.A._Reid",
+        "snippet": "In 2000, LaFace was merged into Arista Records with Reid being promoted to president and CEO of Arista Records. In 1997, Reid attended the Harvard Business ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "L.A. Reid recognized his commercial appeal instantly ...",
+        "url": "https://www.facebook.com/TopViralTalent/posts/la-reid-recognized-his-commercial-appeal-instantly-mentoring-him-all-the-way-to-/1816474746703649/",
+        "snippet": "2 Sept 2026 · He has served as the chairman and CEO of Epic Records and The Island Def Jam Music Group, the president and CEO of Arista Records. Reid was the ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Sony Music Entertainment Names Antonio 'L.A.' Reid Chairman ...",
+        "url": "https://www.sonymusic.com/sonymusic/sony-music-entertainment-names-antonio-l-a-reid-chairman-ceo-epic-records/",
+        "snippet": "18 Jul 2011 · Reid has been named Chairman & CEO of Epic Records, Previously he served as president and CEO of Arista Records, and before that was Co-Founder ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "LA Reid - Acclaimed songwriter, producer, NYT Bestselling ...",
+        "url": "https://www.linkedin.com/in/la-reid-76348542",
+        "snippet": "Chairman & CEO Arista Records 2000 - 2004 4 years New York City Metropolitan Area Discovered Avril Lavigne and worked with superstars Carlos Santana, Aretha ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Antonio 'L.A.' Reid - Ohio School Boards Association",
+        "url": "https://www.ohioschoolboards.org/osba/proud-products/view/110",
+        "snippet": "In 2000, Reid was hired to lead Arista Records, where he discovered Avril Lavigne. He joined Epic Records in 2011, judge “The X Factor” through 2013.",
+        "source_reliability": 70
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "2",
+    "claim": "There is a capital called Mogadishu.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Mogadishu - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mogadishu",
+        "snippet": "Mogadishu, [a] locally known as Xamar or Hamar, is the capital and most populous city of Somalia. The city has served as an important port connecting traders across the Indian Ocean for millennia and has an estimated urban population of 4,126,815. [10]",
+        "source_reliability": 70
+      },
+      {
+        "title": "Mogadishu - Simple English Wikipedia, the free encyclopedia",
+        "url": "https://simple.wikipedia.org/wiki/Mogadishu",
+        "snippet": "Italy bought the city in 1905. They made Mogadiscio (Italian for Mogadishu) the capital of Italian Somaliland. The Italians took control of the area around the city in 1919 after minor resistance.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Sultanate of Mogadishu - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sultanate_of_Mogadishu",
+        "snippet": "A well known hypothesis for the origin of the name of Madagascar is that the name is a corrupted transliteration of Mogadishu, the capital of Somalia and an important medieval port on the Indian Ocean.",
+        "source_reliability": 70
+      },
+      {
+        "title": "Mogadishu | Capital of Somalia, Horn of Africa, Indian Ocean ...Mogadishu - WikiwandMogadishu - Simple English Wikipedia, the free encyclopediaSultanate of Mogadishu - WikipediaWhat is Mogadishu called now? - StudyCountry.comMogadishu（the largest city in Somalia）_Baiduwiki",
+        "url": "https://www.britannica.com/place/Mogadishu",
+        "snippet": "Mogadishu, capital, largest city, and a major port of Somalia, located just north of the Equator on the Indian Ocean. One of the earliest Arab settlements on the East African coast, its origins date to the 10th century. Jun 16, 2019 · Mogadishu, locally known as Xamar or Hamar, is the capital and most populous city of Somalia. The city has served as an important port connecting traders across the Indian Ocean for millennia and has an estimated urban population of 4,126,815. Italy bought the city in 1905. They made Mogadiscio (Italian for Mogadishu) the capital of Italian Somaliland. The Italians took control of the area around the city in 1919 after minor resistance. A well known hypothesis for the origin of the name of Madagascar is that the name is a corrupted transliteration of Mogadishu, the capital of Somalia and an important medieval port on the Indian Ocean. Mogadishu (Somali: Muqdisho, popularly Xamar; Arabic: مقديشو) is the largest city in Somalia and the nation's capital. Located in the coastal Benadir region on the Indian Ocean, the city has served as an important port for centuries. Mogadishu (English: Mogadishu; Somali: Muqdisho; Arabic: مقديشو), formerly known as Hama and historically referred to as Mogadishu in ancient Chinese records, is the capital, largest city, and a major port of Somalia .",
+        "source_reliability": 90
+      },
+      {
+        "title": "Mogadishu - Wikiwand",
+        "url": "https://www.wikiwand.com/en/Mogadishu",
+        "snippet": "Jun 16, 2019 · Mogadishu, locally known as Xamar or Hamar, is the capital and most populous city of Somalia. The city has served as an important port connecting traders across the Indian Ocean for millennia and has an estimated urban population of 4,126,815.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "8",
+    "claim": "Drake Bell put out an EP.",
+    "ground_truth": "SUPPORTED",
+    "evidence": [
+      {
+        "title": "Drake Bell - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Drake_Bell",
+        "snippet": "He independently released his debut studio album, Telegraph (2005), and signed with Universal Motown Records in 2006. His second studio album, It's Only Time ( ...",
+        "source_reliability": 70
+      },
+      {
+        "title": "A Reminder - EP by Drake Bell - Spotify",
+        "url": "https://open.spotify.com/album/3qaZw3BgsiM3B4d71E6EhA",
+        "snippet": "Listen to A Reminder on Spotify · EP · Drake Bell · 2013 · 4 songs. Big Shot Drake Bell Speak My Mind Drake Bell You're Not Thinking Drake. It's Only Time ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "“Prediction: the new Drake Bell record is going to be album of ...",
+        "url": "https://www.facebook.com/drakebell/videos/prediction-the-new-drake-bell-record-is-going-to-be-album-of-the-year-grammys-am/1379540687430741/",
+        "snippet": "15 Jul 2026 · “Prediction: the new Drake Bell record is going to be album of the year. Grammys. Ama's. Billboards. Full sweep.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Who remembers when this album came out? - Facebook",
+        "url": "https://www.facebook.com/drakebell/posts/who-remembers-when-this-album-came-out-/1589350149229218/",
+        "snippet": "7 Jul 2026 · That album has some very beautiful songs like You're not Thinking I love all the songs and all the albums by the great Drake Bell|Underrated ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Why did no one pay attention to Drake's music? - Reddit",
+        "url": "https://www.reddit.com/r/DrakeandJosh/comments/1bvlsp7/why_did_no_one_pay_attention_to_drakes_music/",
+        "snippet": "5 Apr 2024 · The fact that Drake didn't put another album out for 8 years after D&J ended killed a lot of momentum as well. redgatorade77. •. 2y ago.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  },
+  {
+    "id": "41",
+    "claim": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League.",
+    "ground_truth": "UNCERTAIN",
+    "evidence": [
+      {
+        "title": "49ers, Broncos, Browns, and Kaepernick Involved in a Stare ...",
+        "url": "https://www.49erswebzone.com/articles/1547-49ers-broncos-browns-kaepernick-involved-stare-down/",
+        "snippet": "The San Francisco 49ers, Denver Broncos, Cleveland Browns, and quarterback Colin Kaepernick all appear to be involved in a stare down with each waiting for.",
+        "source_reliability": 60
+      },
+      {
+        "title": "Legendary 49er Steve Young says “there's a lot of life after ...",
+        "url": "https://www.facebook.com/KCRA3/posts/legendary-49er-steve-young-says-theres-a-lot-of-life-after-quarterbacking-but-he/1492347619599221/",
+        "snippet": "9 Jul 2026 · Young became the 49ers' full-time starting quarterback in 1991. He was named the AP's NFL Most Valuable Player in 1992 and 1994, and was the ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "Did you know that the last time an NFL team won consecutive ...",
+        "url": "https://www.facebook.com/abc13Houston/posts/did-you-know-that-the-last-time-an-nfl-team-won-consecutive-super-bowls-patrick-/786939113464449/",
+        "snippet": "6 Feb 2024 · The Eagles' second year quarterback also became the first player in NFL history with 300 passing yards, 70 rushing yards and three touchdown ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "The subject of this week's Gold Jacket Spotlight is legendary ...",
+        "url": "https://www.facebook.com/ProFootballHOF/posts/the-subject-of-this-weeks-gold-jacket-spotlight-is-legendary-san-francisco-49ers/887621119388689/",
+        "snippet": "2 Oct 2023 · Young became the 49ers' full-time starting quarterback in 1991. He was named the AP's NFL Most Valuable Player in 1992 and 1994, and was the ...",
+        "source_reliability": 60
+      },
+      {
+        "title": "The NFL: 100 Years of football - Los Angeles Times",
+        "url": "https://www.latimes.com/projects/la-sp-nfl-100-years/",
+        "snippet": "5 Sept 2019 · San Francisco 49ers quarterback Colin Kaepernick begins sitting, and then kneeling, during the national anthem to protest police brutality.",
+        "source_reliability": 60
+      }
+    ],
+    "error": ""
+  }
+]
