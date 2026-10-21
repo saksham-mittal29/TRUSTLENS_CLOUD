@@ -9,9 +9,17 @@ from app.services.firebase_auth import (
 )
 
 
-api_key = input("Firebase Web API Key: ").strip()
-email = input("Firebase test user email: ").strip()
-password = getpass("Firebase test user password: ")
+import os
+
+api_key = os.getenv("FIREBASE_WEB_API_KEY")
+email = os.getenv("FIREBASE_TEST_USER_EMAIL")
+password = os.getenv("FIREBASE_TEST_USER_PASSWORD")
+
+if not (api_key and email and password):
+    print("⚠️ Skipping test_authenticated_history.py: Missing environment variables.")
+    print("   Set FIREBASE_WEB_API_KEY, FIREBASE_TEST_USER_EMAIL, FIREBASE_TEST_USER_PASSWORD to run.")
+    raise SystemExit(0)
+
 
 
 # Firebase login

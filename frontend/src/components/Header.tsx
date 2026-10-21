@@ -12,16 +12,16 @@ function Header() {
 
   const pageInfo = {
     "/": {
-      title: "Trust Overview",
-      description: "Monitor the reliability of your AI responses.",
+      title: "Dashboard",
+      description: "Overview of verified statements and claim accuracy.",
     },
     "/verify": {
-      title: "Verify Response",
-      description: "Analyze an AI response for factual reliability.",
+      title: "Verify",
+      description: "Analyze and cross-reference claims against external sources.",
     },
     "/history": {
-      title: "Verification History",
-      description: "Review your previous TrustLens analyses.",
+      title: "History",
+      description: "Archive of previously processed verifications.",
     },
   };
 
@@ -34,22 +34,21 @@ function Header() {
   }
 
   return (
-    <header className="flex h-20 items-center justify-between border-b border-slate-800 px-8">
+    <header className="flex h-16 items-center justify-between border-b border-zinc-200 bg-white px-8">
       <div>
-        <h2 className="text-xl font-semibold">{currentPage.title}</h2>
-
-        <p className="text-sm text-slate-500">
+        <h2 className="text-base font-semibold text-zinc-900">{currentPage.title}</h2>
+        <p className="text-xs text-zinc-500">
           {currentPage.description}
         </p>
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800">
-            <User className="h-4 w-4 text-slate-400" />
+        <div className="flex items-center gap-2.5">
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-zinc-100 border border-zinc-200 text-zinc-600">
+            <User className="h-4 w-4" />
           </div>
 
-          <span className="max-w-48 truncate text-sm text-slate-300">
+          <span className="max-w-48 truncate text-xs font-medium text-zinc-700">
             {user?.email ?? "User"}
           </span>
         </div>
@@ -57,7 +56,7 @@ function Header() {
         <button
           onClick={handleSignOut}
           title="Sign out"
-          className="flex h-9 w-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-900 hover:text-white"
+          className="flex h-8 w-8 items-center justify-center rounded-md text-zinc-400 transition hover:bg-zinc-100 hover:text-zinc-700"
         >
           <LogOut className="h-4 w-4" />
         </button>

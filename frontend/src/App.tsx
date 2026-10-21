@@ -21,11 +21,11 @@ function App() {
           path="/*"
           element={
             <ProtectedRoute>
-              <div className="min-h-screen bg-slate-950 text-white">
+              <div className="min-h-screen bg-zinc-50 text-zinc-900">
                 <div className="flex min-h-screen">
                   <Sidebar />
 
-                  <main className="flex-1">
+                  <main className="flex-1 min-w-0">
                     <Header />
 
                     <Routes>

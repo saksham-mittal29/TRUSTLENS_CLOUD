@@ -59,61 +59,50 @@ function Dashboard() {
       : "—";
 
   return (
-    <section className="space-y-8 p-8">
-      {/* Dashboard Header */}
-      <div>
-        <h2 className="text-2xl font-bold text-white">
-          Trust Overview
-        </h2>
-
-        <p className="mt-2 text-sm text-slate-500">
-          Monitor the reliability of the AI responses you have verified.
-        </p>
-      </div>
-
+    <section className="space-y-6 p-8">
       {/* Stats */}
-      <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         <StatCard
           label="Total Verifications"
           value={loading ? "..." : totalVerifications}
-          description="Responses analyzed"
+          description="Statements analyzed"
         />
 
         <StatCard
           label="Average Trust Score"
           value={loading ? "..." : averageTrustScore}
-          description="Across your verifications"
+          description="Mean accuracy score"
+          highlight={typeof averageTrustScore === "number"}
         />
 
         <StatCard
           label="Supported Claims"
           value={loading ? "..." : totalSupported}
-          description="Verified claims"
+          description="Confirmed with evidence"
         />
 
         <StatCard
           label="Contradicted Claims"
           value={loading ? "..." : totalContradicted}
-          description="Contradictions detected"
+          description="Contradicted by evidence"
         />
 
         <StatCard
           label="Uncertain Claims"
           value={loading ? "..." : totalUncertain}
-          description="Claims requiring caution"
+          description="Unverifiable or ambiguous"
         />
       </div>
 
       {/* Recent Verifications */}
-      <div className="rounded-2xl border border-slate-800 bg-slate-900">
-        <div className="flex items-center justify-between border-b border-slate-800 p-6">
+      <div className="rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <div className="flex items-center justify-between border-b border-zinc-200 px-6 py-4">
           <div>
-            <h3 className="font-semibold text-white">
+            <h3 className="text-sm font-semibold text-zinc-900">
               Recent Verifications
             </h3>
-
-            <p className="mt-1 text-sm text-slate-500">
-              Your latest TrustLens analyses.
+            <p className="text-xs text-zinc-500">
+              Latest analyzed claims and evidence findings.
             </p>
           </div>
 
@@ -121,29 +110,29 @@ function Dashboard() {
             <button
               type="button"
               onClick={() => navigate("/history")}
-              className="rounded-lg border border-slate-800 px-3 py-2 text-xs text-slate-400 transition hover:border-slate-700 hover:text-white"
+              className="rounded-md border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-700 transition hover:bg-zinc-50"
             >
-              View All
+              View all
             </button>
           )}
         </div>
 
-        <div className="space-y-4 p-6">
+        <div className="space-y-3 p-6">
           {loading && (
-            <p className="text-sm text-slate-500">
+            <p className="text-xs text-zinc-500">
               Loading recent verifications...
             </p>
           )}
 
           {!loading && error && (
-            <div className="rounded-xl border border-red-500/20 bg-red-500/10 p-4 text-sm text-red-400">
+            <div className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-xs text-rose-700">
               {error}
             </div>
           )}
 
           {!loading && !error && history.length === 0 && (
-            <p className="text-sm text-slate-500">
-              No verifications yet.
+            <p className="text-xs text-zinc-500">
+              No verifications recorded yet.
             </p>
           )}
 
@@ -154,7 +143,7 @@ function Dashboard() {
                 key={item.id}
                 type="button"
                 onClick={() => navigate("/history")}
-                className="block w-full rounded-xl text-left transition hover:opacity-90"
+                className="block w-full text-left transition hover:opacity-95"
               >
                 <VerificationCard
                   response={item.original_response}
@@ -167,57 +156,6 @@ function Dashboard() {
                 />
               </button>
             ))}
-        </div>
-      </div>
-
-      {/* How TrustLens Works */}
-      <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-        <div>
-          <h3 className="font-semibold text-white">
-            How TrustLens Works
-          </h3>
-
-          <p className="mt-1 text-sm text-slate-500">
-            Every AI response passes through a multi-stage verification pipeline.
-          </p>
-        </div>
-
-        <div className="mt-6 grid gap-4 md:grid-cols-4">
-          <div className="rounded-xl border border-slate-800 bg-slate-950 p-4">
-            <p className="text-sm font-medium text-white">
-              01 · Claims
-            </p>
-            <p className="mt-2 text-xs leading-5 text-slate-500">
-              AI responses are broken into individual claims.
-            </p>
-          </div>
-
-          <div className="rounded-xl border border-slate-800 bg-slate-950 p-4">
-            <p className="text-sm font-medium text-white">
-              02 · Evidence
-            </p>
-            <p className="mt-2 text-xs leading-5 text-slate-500">
-              Relevant external sources are retrieved for each claim.
-            </p>
-          </div>
-
-          <div className="rounded-xl border border-slate-800 bg-slate-950 p-4">
-            <p className="text-sm font-medium text-white">
-              03 · Verification
-            </p>
-            <p className="mt-2 text-xs leading-5 text-slate-500">
-              Claims are evaluated against the retrieved evidence.
-            </p>
-          </div>
-
-          <div className="rounded-xl border border-slate-800 bg-slate-950 p-4">
-            <p className="text-sm font-medium text-white">
-              04 · Trust Score
-            </p>
-            <p className="mt-2 text-xs leading-5 text-slate-500">
-              Results are aggregated into an overall trust assessment.
-            </p>
-          </div>
         </div>
       </div>
     </section>

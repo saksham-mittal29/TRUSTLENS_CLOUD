@@ -50,3 +50,11 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# ML Model Weights & Binaries (>100MB)
+*.safetensors
+*.bin
+*.pt
+*.pth
+backend/evaluation/models/
+

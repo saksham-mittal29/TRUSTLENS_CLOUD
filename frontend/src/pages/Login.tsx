@@ -40,50 +40,50 @@ function Login() {
       }
 
       navigate("/");
-    } catch (err) {
-      setError("Authentication failed. Please check your details.");
+    } catch {
+      setError("Authentication failed. Please check your credentials.");
     } finally {
       setLoading(false);
     }
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-950 px-6 text-white">
-      <div className="w-full max-w-md">
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 px-6 py-12 text-zinc-900">
+      <div className="w-full max-w-sm">
         {/* Branding */}
-        <div className="mb-8 text-center">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-500/20">
-            <ShieldCheck className="h-7 w-7 text-indigo-400" />
+        <div className="mb-6 text-center">
+          <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-900 text-white">
+            <ShieldCheck className="h-5 w-5" />
           </div>
 
-          <h1 className="mt-5 text-2xl font-semibold">
+          <h1 className="mt-4 text-xl font-bold tracking-tight text-zinc-900">
             TrustLens
           </h1>
 
-          <p className="mt-2 text-sm text-slate-500">
-            AI Trust Verification Platform
+          <p className="mt-1 text-xs text-zinc-500">
+            Claim Verification Engine
           </p>
         </div>
 
         {/* Card */}
-        <div className="rounded-2xl border border-slate-800 bg-slate-900 p-7">
-          <h2 className="text-xl font-semibold">
-            {isSignup ? "Create your account" : "Welcome back"}
+        <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-xs">
+          <h2 className="text-base font-semibold text-zinc-900">
+            {isSignup ? "Create an account" : "Sign in to TrustLens"}
           </h2>
 
-          <p className="mt-2 text-sm text-slate-500">
+          <p className="mt-1 text-xs text-zinc-500">
             {isSignup
-              ? "Create an account to start verifying AI responses."
-              : "Sign in to continue to TrustLens."}
+              ? "Register to start analyzing claims."
+              : "Enter your credentials to continue."}
           </p>
 
           <form
             onSubmit={handleSubmit}
-            className="mt-6 space-y-4"
+            className="mt-5 space-y-4"
           >
             {/* Email */}
             <div>
-              <label className="mb-2 block text-sm text-slate-400">
+              <label className="mb-1.5 block text-xs font-medium text-zinc-700">
                 Email
               </label>
 
@@ -93,15 +93,15 @@ function Login() {
                 onChange={(event) =>
                   setEmail(event.target.value)
                 }
-                placeholder="you@example.com"
+                placeholder="name@example.com"
                 required
-                className="w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-indigo-500"
+                className="w-full rounded-lg border border-zinc-200 bg-zinc-50/50 px-3.5 py-2 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:bg-white focus:border-zinc-900 focus:ring-1 focus:ring-zinc-900"
               />
             </div>
 
             {/* Password */}
             <div>
-              <label className="mb-2 block text-sm text-slate-400">
+              <label className="mb-1.5 block text-xs font-medium text-zinc-700">
                 Password
               </label>
 
@@ -114,13 +114,13 @@ function Login() {
                 placeholder="••••••••"
                 required
                 minLength={6}
-                className="w-full rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-indigo-500"
+                className="w-full rounded-lg border border-zinc-200 bg-zinc-50/50 px-3.5 py-2 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:bg-white focus:border-zinc-900 focus:ring-1 focus:ring-zinc-900"
               />
             </div>
 
             {/* Error */}
             {error && (
-              <div className="rounded-xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-sm text-red-400">
+              <div className="rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-xs text-rose-700">
                 {error}
               </div>
             )}
@@ -129,7 +129,7 @@ function Login() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full rounded-xl bg-indigo-500 px-4 py-3 text-sm font-medium text-white transition hover:bg-indigo-400 disabled:cursor-not-allowed disabled:opacity-50"
+              className="w-full rounded-lg bg-zinc-900 px-4 py-2.5 text-xs font-medium text-white transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {loading
                 ? "Please wait..."
@@ -140,7 +140,7 @@ function Login() {
           </form>
 
           {/* Toggle */}
-          <div className="mt-6 text-center text-sm text-slate-500">
+          <div className="mt-5 text-center text-xs text-zinc-500">
             {isSignup
               ? "Already have an account?"
               : "Don't have an account?"}{" "}
@@ -150,9 +150,9 @@ function Login() {
                 setIsSignup(!isSignup);
                 setError("");
               }}
-              className="font-medium text-indigo-400 hover:text-indigo-300"
+              className="font-medium text-zinc-900 hover:underline"
             >
-              {isSignup ? "Sign in" : "Create one"}
+              {isSignup ? "Sign in" : "Sign up"}
             </button>
           </div>
         </div>

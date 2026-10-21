@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { ShieldCheck, Sparkles } from "lucide-react";
+import { useState } from "react";
+import { ShieldCheck } from "lucide-react";
 
 import VerificationResult from "../components/VerificationResult";
 import { verifyResponse } from "../services/api";
@@ -10,7 +10,6 @@ function Verify() {
   const [result, setResult] = useState<VerificationResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [verificationStage, setVerificationStage] = useState(0);
 
   async function handleVerify() {
     if (!response.trim()) {
@@ -20,7 +19,6 @@ function Verify() {
     setLoading(true);
     setError("");
     setResult(null);
-    setVerificationStage(1);
 
     try {
       const data = await verifyResponse(response);
@@ -36,48 +34,28 @@ function Verify() {
     }
   }
 
-  useEffect(() => {
-    if (!loading) {
-      setVerificationStage(0);
-      return;
-    }
-
-    const timer = setInterval(() => {
-      setVerificationStage((current) =>
-        current < 4 ? current + 1 : current
-      );
-    }, 2000);
-
-    return () => clearInterval(timer);
-  }, [loading]);
-
   return (
-    <section className="space-y-8 p-8">
-
+    <section className="space-y-6 p-8">
       {/* Verification Input */}
-      <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-        <div className="mb-4 flex items-center justify-between">
-          <div>
-            <h3 className="font-semibold">AI Response</h3>
-            <p className="mt-1 text-sm text-slate-500">
-              Paste the response you want TrustLens to analyze.
-            </p>
-          </div>
-
-          <Sparkles className="h-5 w-5 text-indigo-400" />
+      <div className="rounded-xl border border-zinc-200 bg-white p-6 shadow-xs">
+        <div className="mb-4">
+          <h3 className="text-sm font-semibold text-zinc-900">Content to Verify</h3>
+          <p className="mt-0.5 text-xs text-zinc-500">
+            Paste or type any statement, claim, or report to verify against evidence sources.
+          </p>
         </div>
 
         <textarea
           value={response}
           onChange={(event) => setResponse(event.target.value)}
           maxLength={20000}
-          placeholder="Paste an AI-generated response here..."
-          className="min-h-56 w-full resize-y rounded-xl border border-slate-800 bg-slate-950 p-4 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-indigo-500"
+          placeholder="Paste or write statement here to verify..."
+          className="min-h-48 w-full resize-y rounded-lg border border-zinc-200 bg-zinc-50/40 p-4 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:bg-white focus:border-zinc-900 focus:ring-1 focus:ring-zinc-900"
         />
 
         <div className="mt-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <p className="text-xs text-slate-600">
+            <p className="text-xs text-zinc-400 font-mono">
               {response.length.toLocaleString()} / 20,000 characters
             </p>
 
@@ -89,9 +67,9 @@ function Verify() {
                   setResult(null);
                   setError("");
                 }}
-                className="text-xs text-slate-500 transition hover:text-white"
+                className="text-xs text-zinc-500 hover:text-zinc-900 transition"
               >
-                Clear
+                Clear text
               </button>
             )}
           </div>
@@ -99,92 +77,46 @@ function Verify() {
           <button
             onClick={handleVerify}
             disabled={!response.trim() || loading}
-            className="flex items-center gap-2 rounded-xl bg-indigo-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-400 disabled:cursor-not-allowed disabled:opacity-40"
+            className="flex items-center gap-2 rounded-lg bg-zinc-900 px-4 py-2.5 text-xs font-medium text-white transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-40"
           >
             {loading ? (
               <>
-                <div className="h-4 w-4 animate-spin rounded-full border-2 border-white/30 border-t-white" />
+                <div className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white/30 border-t-white" />
                 Verifying...
               </>
             ) : (
               <>
                 <ShieldCheck className="h-4 w-4" />
-                Verify Response
+                Run Verification
               </>
             )}
           </button>
         </div>
       </div>
 
-      {/* Verification Stages */}
+      {/* Verification Progress */}
       {loading && (
-        <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-6">
-          <div className="flex items-center gap-3">
-            <div className="h-2 w-2 animate-pulse rounded-full bg-indigo-400" />
-
-            <div>
-              <p className="font-medium text-white">
-                Analyzing your response
-              </p>
-
-              <p className="mt-1 text-sm text-slate-500">
-                TrustLens is verifying the information.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6 space-y-3">
-            {[
-              "Extracting claims",
-              "Searching for evidence",
-              "Evaluating claims",
-              "Calculating trust score",
-            ].map((stage, index) => {
-              const stageNumber = index + 1;
-              const completed = verificationStage > stageNumber;
-              const active = verificationStage === stageNumber;
-
-              return (
-                <div
-                  key={stage}
-                  className="flex items-center gap-3"
-                >
-                  <div
-                    className={`flex h-6 w-6 items-center justify-center rounded-full text-xs ${
-                      completed
-                        ? "bg-emerald-500/20 text-emerald-400"
-                        : active
-                          ? "bg-indigo-500/20 text-indigo-400"
-                          : "bg-slate-800 text-slate-600"
-                    }`}
-                  >
-                    {completed ? "✓" : stageNumber}
-                  </div>
-
-                  <p
-                    className={`text-sm ${
-                      active || completed
-                        ? "text-slate-300"
-                        : "text-slate-600"
-                    }`}
-                  >
-                    {stage}
-                  </p>
-                </div>
-              );
-            })}
+        <div className="flex items-center gap-3 rounded-xl border border-zinc-200 bg-white p-5 shadow-xs">
+          <div className="h-4 w-4 animate-spin rounded-full border-2 border-zinc-300 border-t-zinc-900" />
+          <div>
+            <p className="text-xs font-semibold text-zinc-900">
+              Verifying claims
+            </p>
+            <p className="text-xs text-zinc-500">
+              Extracting statements and searching relevant external sources...
+            </p>
           </div>
         </div>
       )}
 
       {/* Error */}
       {error && (
-        <div className="rounded-2xl border border-red-500/20 bg-red-500/5 p-5">
-          <p className="font-medium text-red-400">
-            Verification failed
+        <div className="rounded-xl border border-rose-200 bg-rose-50 p-4">
+          <p className="text-xs font-semibold text-rose-800">
+            Verification error
           </p>
 
-          <p className="mt-2 text-sm leading-6 text-red-300/70">
+          <p className="mt-1 text-xs text-rose-700">
             {error.includes("503") || error.includes("UNAVAILABLE")
               ? "The verification service is temporarily unavailable. Please try again shortly."
               : error}
